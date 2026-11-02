@@ -104,7 +104,11 @@ st.markdown("""
 # ==========================================
 FILE_DATASET = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dataset_nilai_siswa.csv")
 
-DAFTAR_KELAS = ["X-1", "X-2", "XI-1", "XI-2", "XII-1", "XII-2"]
+DAFTAR_KELAS = [
+    "X-1", "X-2", "X-3", "X-4", "X-5", "X-6", "X-7", "X-8",
+    "XI-1", "XI-2", "XI-3", "XI-4", "XI-5",
+    "XII-1", "XII-2", "XII-3", "XII-4", "XII-5", "XII-6"
+]
 DAFTAR_MAPEL = ["Informatika", "Matematika", "Bahasa Indonesia", "Bahasa Inggris", "IPA"]
 
 WARNA_PREDIKAT = {
@@ -113,6 +117,21 @@ WARNA_PREDIKAT = {
     "C": "#f59e0b",  # Kuning Amber
     "D": "#ef4444"   # Merah Coral
 }
+
+
+def kunci_urut_kelas(nama_kelas: str):
+    """Mengurutkan nama kelas secara natural: X-1..X-8, XI-1..XI-5, XII-1..XII-6."""
+    urutan_tingkat = {"X": 1, "XI": 2, "XII": 3}
+    bagian = str(nama_kelas).split("-")
+    if len(bagian) == 2 and bagian[0] in urutan_tingkat and bagian[1].isdigit():
+        return (urutan_tingkat[bagian[0]], int(bagian[1]))
+    return (99, str(nama_kelas))
+
+
+def urutkan_daftar_kelas(daftar):
+    """Mengembalikan list kelas yang sudah terurut secara natural."""
+    return sorted(daftar, key=kunci_urut_kelas)
+
 
 # ==========================================
 # FUNGSI PERHITUNGAN & PENGOLAHAN DATA
@@ -148,7 +167,8 @@ def muat_dataset_awal() -> pd.DataFrame:
     """Membaca dataset CSV menggunakan Pandas dan memastikan format kolom konsisten."""
     if os.path.exists(FILE_DATASET):
         df = pd.read_csv(FILE_DATASET, dtype={"NIS": str})
-        # Pastikan perhitungan nilai akhir dan predikat konsisten
+        if "Jenis_Kelamin" not in df.columns:
+            df.insert(2, "Jenis_Kelamin", "L")
         df["Nilai_Tugas"] = pd.to_numeric(df["Nilai_Tugas"], errors="coerce").fillna(0)
         df["Nilai_UTS"] = pd.to_numeric(df["Nilai_UTS"], errors="coerce").fillna(0)
         df["Nilai_UAS"] = pd.to_numeric(df["Nilai_UAS"], errors="coerce").fillna(0)
@@ -160,7 +180,7 @@ def muat_dataset_awal() -> pd.DataFrame:
         return df
     else:
         return pd.DataFrame(columns=[
-            "NIS", "Nama", "Kelas", "Mata_Pelajaran",
+            "NIS", "Nama", "Jenis_Kelamin", "Kelas", "Mata_Pelajaran",
             "Nilai_Tugas", "Nilai_UTS", "Nilai_UAS", "Nilai_Akhir", "Predikat"
         ])
 
@@ -197,7 +217,7 @@ def tampilkan_dashboard(df: pd.DataFrame):
     st.markdown("""
     <div class="main-header">
         <h1>📊 Dashboard Akademik Siswa SMA</h1>
-        <p>Ringkasan eksekutif pengolahan nilai, distribusi predikat, dan capaian akademik per kelas serta mata pelajaran.</p>
+        <p>Ringkasan eksekutif pengolahan nilai 754 siswa (19 Kelas: X-1 s.d. X-8, XI-1 s.d. XI-5, XII-1 s.d. XII-6).</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -211,6 +231,9 @@ def tampilkan_dashboard(df: pd.DataFrame):
     total_kelas = df["Kelas"].nunique()
     rata_nilai_akhir = df["Nilai_Akhir"].mean()
 
+    jml_l = int((df.drop_duplicates("NIS")["Jenis_Kelamin"] == "L").sum())
+    jml_p = int((df.drop_duplicates("NIS")["Jenis_Kelamin"] == "P").sum())
+
     jml_a = int((df["Predikat"] == "A").sum())
     jml_b = int((df["Predikat"] == "B").sum())
     jml_c = int((df["Predikat"] == "C").sum())
@@ -218,12 +241,14 @@ def tampilkan_dashboard(df: pd.DataFrame):
 
     # Baris 1: Statistik Umum
     st.subheader("📌 Ringkasan Statistik Utama")
-    kol1, kol2, kol3 = st.columns(3)
+    kol1, kol2, kol3, kol4 = st.columns(4)
     with kol1:
-        buat_kartu_kpi("Total Siswa", f"{total_siswa} Siswa", f"Total {total_data} entri nilai akademik", "#1e40af")
+        buat_kartu_kpi("Total Siswa", f"{total_siswa} Siswa", f"Rata-rata ~40 siswa per kelas ({total_data} data)", "#1e40af")
     with kol2:
-        buat_kartu_kpi("Total Kelas", f"{total_kelas} Kelas", "Jenjang Kelas X, XI, dan XII", "#0284c7")
+        buat_kartu_kpi("Total Kelas", f"{total_kelas} Kelas", "X (8 Kelas) • XI (5 Kelas) • XII (6 Kelas)", "#0284c7")
     with kol3:
+        buat_kartu_kpi("Proporsi Gender", f"{jml_l} L / {jml_p} P", f"Laki-laki: {jml_l} | Perempuan: {jml_p}", "#6366f1")
+    with kol4:
         buat_kartu_kpi("Rata-rata Nilai Akhir", f"{rata_nilai_akhir:.2f}", "Skala penilaian 0 - 100", "#0d9488")
 
     # Baris 2: Jumlah Siswa per Predikat
@@ -244,7 +269,7 @@ def tampilkan_dashboard(df: pd.DataFrame):
 
     st.markdown("---")
 
-    # Baris 3: Grafik Visualisasi Interaktif
+    # Baris 3: Grafik Distribusi Predikat & Rata-rata Nilai per Mata Pelajaran
     g_kol1, g_kol2 = st.columns(2)
 
     with g_kol1:
@@ -279,66 +304,76 @@ def tampilkan_dashboard(df: pd.DataFrame):
         st.plotly_chart(fig_predikat, use_container_width=True)
 
     with g_kol2:
-        # 2. Grafik Rata-rata Nilai per Kelas
-        df_kelas = (
-            df.groupby("Kelas", as_index=False)["Nilai_Akhir"]
+        # 2. Grafik Rata-rata Nilai per Mata Pelajaran
+        df_mapel = (
+            df.groupby("Mata_Pelajaran", as_index=False)[["Nilai_Tugas", "Nilai_UTS", "Nilai_UAS", "Nilai_Akhir"]]
             .mean()
-            .sort_values("Kelas")
+            .sort_values("Nilai_Akhir", ascending=True)
         )
-        df_kelas["Nilai_Akhir"] = df_kelas["Nilai_Akhir"].round(2)
+        df_mapel["Nilai_Akhir"] = df_mapel["Nilai_Akhir"].round(2)
 
-        fig_kelas = px.bar(
-            df_kelas,
-            x="Kelas",
-            y="Nilai_Akhir",
+        fig_mapel = px.bar(
+            df_mapel,
+            x="Nilai_Akhir",
+            y="Mata_Pelajaran",
+            orientation="h",
             text="Nilai_Akhir",
-            color="Kelas",
-            color_discrete_sequence=px.colors.qualitative.Safe,
-            title="<b>Rata-rata Nilai Akhir per Kelas</b>",
-            labels={"Nilai_Akhir": "Rata-rata Nilai Akhir", "Kelas": "Kelas"}
+            color="Nilai_Akhir",
+            color_continuous_scale="Blues",
+            title="<b>Rata-rata Nilai Akhir per Mata Pelajaran</b>",
+            labels={"Nilai_Akhir": "Rata-rata Nilai Akhir", "Mata_Pelajaran": "Mata Pelajaran"}
         )
-        fig_kelas.update_traces(
+        fig_mapel.update_traces(
             texttemplate="%{text:.2f}",
             textposition="outside",
-            hovertemplate="<b>Kelas %{x}</b><br>Rata-rata Nilai: %{y:.2f}<extra></extra>"
+            hovertemplate="<b>%{y}</b><br>Rata-rata Nilai Akhir: %{x:.2f}<extra></extra>"
         )
-        fig_kelas.update_layout(
-            yaxis_range=[0, 108],
-            showlegend=False,
+        fig_mapel.update_layout(
+            xaxis_range=[0, 108],
+            coloraxis_showscale=False,
             margin=dict(t=50, b=20, l=20, r=20)
         )
-        st.plotly_chart(fig_kelas, use_container_width=True)
+        st.plotly_chart(fig_mapel, use_container_width=True)
 
-    # Baris 4: Grafik Rata-rata Nilai per Mata Pelajaran
-    df_mapel = (
-        df.groupby("Mata_Pelajaran", as_index=False)[["Nilai_Tugas", "Nilai_UTS", "Nilai_UAS", "Nilai_Akhir"]]
-        .mean()
-        .sort_values("Nilai_Akhir", ascending=True)
+    # Baris 4: Grafik Rata-rata Nilai per Kelas (19 Kelas: X-1..X-8, XI-1..XI-5, XII-1..XII-6)
+    df_kelas = (
+        df.groupby("Kelas", as_index=False)
+        .agg(
+            Rata_Nilai=("Nilai_Akhir", "mean"),
+            Jumlah_Siswa=("NIS", "nunique")
+        )
     )
-    df_mapel["Nilai_Akhir"] = df_mapel["Nilai_Akhir"].round(2)
+    df_kelas["Urutan"] = df_kelas["Kelas"].apply(kunci_urut_kelas)
+    df_kelas = df_kelas.sort_values("Urutan").drop(columns=["Urutan"])
+    df_kelas["Rata_Nilai"] = df_kelas["Rata_Nilai"].round(2)
+    df_kelas["Tingkat"] = df_kelas["Kelas"].apply(lambda k: f"Kelas {k.split('-')[0]}")
 
-    fig_mapel = px.bar(
-        df_mapel,
-        x="Nilai_Akhir",
-        y="Mata_Pelajaran",
-        orientation="h",
-        text="Nilai_Akhir",
-        color="Nilai_Akhir",
-        color_continuous_scale="Blues",
-        title="<b>Rata-rata Nilai Akhir per Mata Pelajaran</b>",
-        labels={"Nilai_Akhir": "Rata-rata Nilai Akhir", "Mata_Pelajaran": "Mata Pelajaran"}
+    fig_kelas = px.bar(
+        df_kelas,
+        x="Kelas",
+        y="Rata_Nilai",
+        text="Rata_Nilai",
+        color="Tingkat",
+        hover_data=["Jumlah_Siswa"],
+        color_discrete_map={
+            "Kelas X": "#3b82f6",
+            "Kelas XI": "#0d9488",
+            "Kelas XII": "#6366f1"
+        },
+        category_orders={"Kelas": df_kelas["Kelas"].tolist()},
+        title="<b>Rata-rata Nilai Akhir per Kelas (X-1 s.d. XII-6)</b>",
+        labels={"Rata_Nilai": "Rata-rata Nilai Akhir", "Kelas": "Kelas", "Tingkat": "Tingkat Kelas"}
     )
-    fig_mapel.update_traces(
+    fig_kelas.update_traces(
         texttemplate="%{text:.2f}",
         textposition="outside",
-        hovertemplate="<b>%{y}</b><br>Rata-rata Nilai Akhir: %{x:.2f}<extra></extra>"
+        hovertemplate="<b>Kelas %{x}</b><br>Rata-rata Nilai: %{y:.2f}<br>Jumlah Siswa: %{customdata[0]} siswa<extra></extra>"
     )
-    fig_mapel.update_layout(
-        xaxis_range=[0, 108],
-        coloraxis_showscale=False,
-        margin=dict(t=50, b=20, l=20, r=20)
+    fig_kelas.update_layout(
+        yaxis_range=[0, 108],
+        margin=dict(t=50, b=30, l=20, r=20)
     )
-    st.plotly_chart(fig_mapel, use_container_width=True)
+    st.plotly_chart(fig_kelas, use_container_width=True)
 
 
 # ==========================================
@@ -348,12 +383,12 @@ def tampilkan_data_siswa(df: pd.DataFrame):
     st.markdown("""
     <div class="main-header">
         <h1>📋 Data Nilai Siswa</h1>
-        <p>Kelola, cari, saring berdasarkan kelas atau mata pelajaran, dan unduh laporan nilai siswa dalam format CSV.</p>
+        <p>Kelola, cari, saring berdasarkan kelas, jenis kelamin, atau mata pelajaran, dan unduh laporan nilai dalam format CSV.</p>
     </div>
     """, unsafe_allow_html=True)
 
     # Panel Filter & Pencarian
-    kol_cari, kol_kelas, kol_mapel = st.columns([2, 1.5, 1.5])
+    kol_cari, kol_kelas, kol_mapel, kol_jk = st.columns([2, 1.4, 1.4, 1])
 
     with kol_cari:
         kata_kunci = st.text_input(
@@ -362,12 +397,12 @@ def tampilkan_data_siswa(df: pd.DataFrame):
         ).strip()
 
     with kol_kelas:
-        pilihan_kelas = sorted(df["Kelas"].unique().tolist())
+        pilihan_kelas = urutkan_daftar_kelas(df["Kelas"].unique().tolist())
         filter_kelas = st.multiselect(
             "🏫 Filter Kelas",
             options=pilihan_kelas,
             default=[],
-            placeholder="Semua Kelas"
+            placeholder="Semua Kelas (19 Kelas)"
         )
 
     with kol_mapel:
@@ -376,7 +411,13 @@ def tampilkan_data_siswa(df: pd.DataFrame):
             "📚 Filter Mata Pelajaran",
             options=pilihan_mapel,
             default=[],
-            placeholder="Semua Mata Pelajaran"
+            placeholder="Semua Mapel"
+        )
+
+    with kol_jk:
+        filter_jk = st.selectbox(
+            "🚻 Jenis Kelamin",
+            options=["Semua", "Laki-laki (L)", "Perempuan (P)"]
         )
 
     # Terapkan Filter
@@ -395,10 +436,20 @@ def tampilkan_data_siswa(df: pd.DataFrame):
     if filter_mapel:
         df_tampil = df_tampil[df_tampil["Mata_Pelajaran"].isin(filter_mapel)]
 
+    if filter_jk == "Laki-laki (L)":
+        df_tampil = df_tampil[df_tampil["Jenis_Kelamin"] == "L"]
+    elif filter_jk == "Perempuan (P)":
+        df_tampil = df_tampil[df_tampil["Jenis_Kelamin"] == "P"]
+
     # Baris Info & Tombol Unduh CSV
     info_kol, unduh_kol = st.columns([3, 1])
     with info_kol:
-        st.markdown(f"Menampilkan **{len(df_tampil)}** dari total **{len(df)}** data nilai siswa.")
+        jml_l_filter = (df_tampil["Jenis_Kelamin"] == "L").sum()
+        jml_p_filter = (df_tampil["Jenis_Kelamin"] == "P").sum()
+        st.markdown(
+            f"Menampilkan **{len(df_tampil)}** dari total **{len(df)}** data nilai siswa "
+            f"*(Laki-laki: **{jml_l_filter}**, Perempuan: **{jml_p_filter}**)*."
+        )
     with unduh_kol:
         csv_bytes = df_tampil.to_csv(index=False).encode("utf-8")
         st.download_button(
@@ -417,6 +468,7 @@ def tampilkan_data_siswa(df: pd.DataFrame):
         column_config={
             "NIS": st.column_config.TextColumn("NIS", width="small"),
             "Nama": st.column_config.TextColumn("Nama Lengkap Siswa", width="medium"),
+            "Jenis_Kelamin": st.column_config.TextColumn("L/P", width="small"),
             "Kelas": st.column_config.TextColumn("Kelas", width="small"),
             "Mata_Pelajaran": st.column_config.TextColumn("Mata Pelajaran", width="medium"),
             "Nilai_Tugas": st.column_config.NumberColumn("Nilai Tugas (30%)", format="%.1f"),
@@ -467,10 +519,12 @@ def tampilkan_input_nilai():
             st.subheader("📝 Formulir Data & Komponen Nilai")
             f_kol1, f_kol2 = st.columns(2)
             with f_kol1:
-                nis_input = st.text_input("NIS (Nomor Induk Siswa) *", placeholder="Contoh: 20241125")
+                nis_input = st.text_input("NIS (Nomor Induk Siswa) *", placeholder="Contoh: 10260755")
                 nama_input = st.text_input("Nama Lengkap Siswa *", placeholder="Contoh: Raka Pratama")
+                jk_label = st.selectbox("Jenis Kelamin *", options=["Laki-laki (L)", "Perempuan (P)"])
+                jk_input = "L" if "Laki-laki" in jk_label else "P"
             with f_kol2:
-                kelas_opsi = sorted(list(set(DAFTAR_KELAS + df_saat_ini["Kelas"].unique().tolist())))
+                kelas_opsi = urutkan_daftar_kelas(list(set(DAFTAR_KELAS + df_saat_ini["Kelas"].unique().tolist())))
                 mapel_opsi = sorted(list(set(DAFTAR_MAPEL + df_saat_ini["Mata_Pelajaran"].unique().tolist())))
                 kelas_input = st.selectbox("Kelas *", options=kelas_opsi)
                 mapel_input = st.selectbox("Mata Pelajaran *", options=mapel_opsi)
@@ -542,6 +596,7 @@ def tampilkan_input_nilai():
                     baris_baru = pd.DataFrame([{
                         "NIS": nis_bersih,
                         "Nama": nama_bersih,
+                        "Jenis_Kelamin": jk_input,
                         "Kelas": kelas_input,
                         "Mata_Pelajaran": mapel_input,
                         "Nilai_Tugas": round(float(nilai_tugas), 2),
@@ -605,7 +660,7 @@ def tampilkan_monitoring_akademik(df: pd.DataFrame):
         )
         df_tertinggi.index = df_tertinggi.index + 1
         st.dataframe(
-            df_tertinggi[["NIS", "Nama", "Kelas", "Mata_Pelajaran", "Nilai_Akhir", "Predikat"]],
+            df_tertinggi[["NIS", "Nama", "Jenis_Kelamin", "Kelas", "Mata_Pelajaran", "Nilai_Akhir", "Predikat"]],
             use_container_width=True
         )
 
@@ -618,7 +673,7 @@ def tampilkan_monitoring_akademik(df: pd.DataFrame):
         )
         df_terendah.index = df_terendah.index + 1
         st.dataframe(
-            df_terendah[["NIS", "Nama", "Kelas", "Mata_Pelajaran", "Nilai_Akhir", "Predikat"]],
+            df_terendah[["NIS", "Nama", "Jenis_Kelamin", "Kelas", "Mata_Pelajaran", "Nilai_Akhir", "Predikat"]],
             use_container_width=True
         )
 
@@ -638,6 +693,7 @@ def tampilkan_monitoring_akademik(df: pd.DataFrame):
         st.dataframe(
             df_predikat_d,
             use_container_width=True,
+            height=300,
             column_config={
                 "Nilai_Akhir": st.column_config.NumberColumn("Nilai Akhir", format="%.2f"),
             }
@@ -648,7 +704,7 @@ def tampilkan_monitoring_akademik(df: pd.DataFrame):
     # 3. Rata-rata Nilai Setiap Siswa
     st.subheader("📊 Rekapitulasi Rata-rata Nilai Setiap Siswa")
     df_rata_siswa = (
-        df.groupby(["NIS", "Nama", "Kelas"], as_index=False)
+        df.groupby(["NIS", "Nama", "Jenis_Kelamin", "Kelas"], as_index=False)
         .agg(
             Jumlah_Mapel=("Mata_Pelajaran", "count"),
             Rata_Tugas=("Nilai_Tugas", "mean"),
@@ -672,6 +728,7 @@ def tampilkan_monitoring_akademik(df: pd.DataFrame):
         column_config={
             "NIS": "NIS",
             "Nama": "Nama Siswa",
+            "Jenis_Kelamin": "L/P",
             "Kelas": "Kelas",
             "Jumlah_Mapel": "Jml Mapel",
             "Rata_Tugas": st.column_config.NumberColumn("Rata-rata Tugas", format="%.2f"),
@@ -696,14 +753,14 @@ def tampilkan_monitoring_akademik(df: pd.DataFrame):
     with kol_opsi1:
         filter_kelas_grafik = st.selectbox(
             "Pilih Kelas untuk Perbandingan:",
-            options=["Semua Kelas"] + sorted(df["Kelas"].unique().tolist())
+            options=["Semua Kelas"] + urutkan_daftar_kelas(df["Kelas"].unique().tolist())
         )
     with kol_opsi2:
         jumlah_tampil = st.slider(
             "Jumlah Siswa yang Ditampilkan pada Grafik:",
             min_value=5,
-            max_value=min(40, len(df_rata_siswa)),
-            value=min(15, len(df_rata_siswa)),
+            max_value=45,
+            value=20,
             step=5
         )
 
@@ -721,7 +778,7 @@ def tampilkan_monitoring_akademik(df: pd.DataFrame):
         text="Rata_Nilai_Akhir",
         color_discrete_map=WARNA_PREDIKAT,
         category_orders={"Predikat_Rata": ["A", "B", "C", "D"]},
-        hover_data=["NIS", "Kelas", "Rata_Tugas", "Rata_UTS", "Rata_UAS"],
+        hover_data=["NIS", "Jenis_Kelamin", "Kelas", "Rata_Tugas", "Rata_UTS", "Rata_UAS"],
         title=f"<b>Perbandingan Nilai Akhir Siswa ({filter_kelas_grafik})</b>",
         labels={
             "Nama": "Nama Siswa",
@@ -756,22 +813,35 @@ def tampilkan_detail_siswa(df: pd.DataFrame):
         st.warning("Data siswa belum tersedia.")
         return
 
-    # Buat daftar pilihan siswa unik berdasarkan NIS dan Nama
-    df_siswa_unik = (
-        df[["NIS", "Nama", "Kelas"]]
-        .drop_duplicates(subset=["NIS"])
-        .sort_values(by=["Kelas", "Nama"])
-    )
+    # Filter opsional per kelas agar mudah memilih dari 754 siswa
+    kol_f_kelas, kol_f_siswa = st.columns([1, 2.5])
+    with kol_f_kelas:
+        pilihan_filter_kelas = st.selectbox(
+            "🏫 Filter Kelas:",
+            options=["Semua Kelas"] + urutkan_daftar_kelas(df["Kelas"].unique().tolist())
+        )
+
+    df_siswa_unik = df[["NIS", "Nama", "Jenis_Kelamin", "Kelas"]].drop_duplicates(subset=["NIS"]).copy()
+    if pilihan_filter_kelas != "Semua Kelas":
+        df_siswa_unik = df_siswa_unik[df_siswa_unik["Kelas"] == pilihan_filter_kelas]
+
+    df_siswa_unik["Urutan_Kelas"] = df_siswa_unik["Kelas"].apply(kunci_urut_kelas)
+    df_siswa_unik = df_siswa_unik.sort_values(by=["Urutan_Kelas", "Nama"])
+
     opsi_siswa = [
-        f"{baris['NIS']} - {baris['Nama']} ({baris['Kelas']})"
+        f"{baris['NIS']} - {baris['Nama']} ({baris['Kelas']} | {baris['Jenis_Kelamin']})"
         for _, baris in df_siswa_unik.iterrows()
     ]
 
-    pilihan = st.selectbox("🔎 Pilih Siswa (Berdasarkan NIS / Nama / Kelas):", options=opsi_siswa)
+    with kol_f_siswa:
+        pilihan = st.selectbox("🔎 Pilih Siswa (Berdasarkan NIS / Nama / Kelas):", options=opsi_siswa)
+
     nis_terpilih = pilihan.split(" - ")[0]
 
     df_detail = df[df["NIS"].astype(str) == nis_terpilih].reset_index(drop=True)
     nama_siswa = df_detail["Nama"].iloc[0]
+    jk_kode = df_detail["Jenis_Kelamin"].iloc[0]
+    jk_teks = "Laki-laki (L)" if jk_kode == "L" else "Perempuan (P)"
     kelas_siswa = df_detail["Kelas"].iloc[0]
     rata_akhir_siswa = df_detail["Nilai_Akhir"].mean()
     predikat_utama = tentukan_predikat(rata_akhir_siswa)
@@ -782,22 +852,22 @@ def tampilkan_detail_siswa(df: pd.DataFrame):
         <h3 style="margin-top:0; color:#1e3a8a;">🪪 Identitas Akademik Siswa</h3>
         <table style="width:100%; border-collapse: collapse; font-size:0.98rem;">
             <tr>
-                <td style="padding: 6px 0; width: 180px; color:#475569;"><b>Nomor Induk Siswa (NIS)</b></td>
+                <td style="padding: 6px 0; width: 190px; color:#475569;"><b>Nomor Induk Siswa (NIS)</b></td>
                 <td style="padding: 6px 0;">: <b>{nis_terpilih}</b></td>
-                <td style="padding: 6px 0; width: 180px; color:#475569;"><b>Rata-rata Nilai Akhir</b></td>
-                <td style="padding: 6px 0;">: <b>{rata_akhir_siswa:.2f}</b></td>
+                <td style="padding: 6px 0; width: 190px; color:#475569;"><b>Kelas</b></td>
+                <td style="padding: 6px 0;">: <b>{kelas_siswa}</b></td>
             </tr>
             <tr>
                 <td style="padding: 6px 0; color:#475569;"><b>Nama Lengkap</b></td>
                 <td style="padding: 6px 0;">: <b>{nama_siswa}</b></td>
-                <td style="padding: 6px 0; color:#475569;"><b>Predikat Akademik</b></td>
-                <td style="padding: 6px 0;">: <span class="badge badge-{predikat_utama}">Predikat {predikat_utama}</span></td>
+                <td style="padding: 6px 0; color:#475569;"><b>Rata-rata Nilai Akhir</b></td>
+                <td style="padding: 6px 0;">: <b>{rata_akhir_siswa:.2f}</b></td>
             </tr>
             <tr>
-                <td style="padding: 6px 0; color:#475569;"><b>Kelas</b></td>
-                <td style="padding: 6px 0;">: <b>{kelas_siswa}</b></td>
-                <td style="padding: 6px 0; color:#475569;"><b>Jumlah Mata Pelajaran</b></td>
-                <td style="padding: 6px 0;">: <b>{len(df_detail)} Mata Pelajaran</b></td>
+                <td style="padding: 6px 0; color:#475569;"><b>Jenis Kelamin</b></td>
+                <td style="padding: 6px 0;">: <b>{jk_teks}</b></td>
+                <td style="padding: 6px 0; color:#475569;"><b>Predikat Akademik</b></td>
+                <td style="padding: 6px 0;">: <span class="badge badge-{predikat_utama}">Predikat {predikat_utama}</span></td>
             </tr>
         </table>
     </div>
@@ -929,7 +999,10 @@ def main():
 
         st.markdown("---")
         st.markdown("### 📌 Ringkasan Cepat")
+        jml_l = (df.drop_duplicates("NIS")["Jenis_Kelamin"] == "L").sum()
+        jml_p = (df.drop_duplicates("NIS")["Jenis_Kelamin"] == "P").sum()
         st.write(f"- **Total Siswa:** {df['NIS'].nunique()} Siswa")
+        st.write(f"- **Laki-laki / Perempuan:** {jml_l} L / {jml_p} P")
         st.write(f"- **Total Kelas:** {df['Kelas'].nunique()} Kelas")
         st.write(f"- **Rata-rata Nilai:** {df['Nilai_Akhir'].mean():.2f}")
 
@@ -955,4 +1028,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
