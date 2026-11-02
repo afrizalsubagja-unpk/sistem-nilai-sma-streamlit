@@ -1,0 +1,121 @@
+NIS,Nama,Kelas,Mata_Pelajaran,Nilai_Tugas,Nilai_UTS,Nilai_UAS,Nilai_Akhir,Predikat
+20241001,Aditya Purnomo,X-1,Informatika,90,96,97,94.6,A
+20241002,Citra Simanjuntak,X-2,Matematika,89,100,90,92.7,A
+20241003,Dewi Hidayat,XI-1,Bahasa Indonesia,91,79,80,83.0,B
+20241004,Dewi Simanjuntak,XI-2,Bahasa Inggris,88,80,90,86.4,B
+20241005,Dewi Wijaya,XII-1,IPA,88,84,87,86.4,B
+20241006,Budi Saputra,XII-2,Informatika,79,84,84,82.5,B
+20241007,Dewi Kusuma,X-1,Matematika,77,79,76,77.2,C
+20241008,Citra Handoko,X-2,Bahasa Indonesia,72,65,78,72.3,C
+20241009,Dewi Santoso,XI-1,Bahasa Inggris,79,68,78,75.3,C
+20241010,Dewi Hakim,XI-2,IPA,67,53,64,61.6,D
+20241011,Budi Ramadhan,XII-1,Informatika,98,93,91,93.7,A
+20241012,Citra Hakim,XII-2,Matematika,92,94,92,92.6,A
+20241013,Citra Cahyono,X-1,Bahasa Indonesia,85,78,89,84.5,B
+20241014,Budi Wijaya,X-2,Bahasa Inggris,92,89,82,87.1,B
+20241015,Aditya Putri,XI-1,IPA,86,90,80,84.8,B
+20241016,Citra Wijaya,XI-2,Informatika,86,79,88,84.7,B
+20241017,Citra Nasution,XII-1,Matematika,72,71,70,70.9,C
+20241018,Dewi Wibowo,XII-2,Bahasa Indonesia,73,70,76,73.3,C
+20241019,Budi Siregar,X-1,Bahasa Inggris,80,65,77,74.3,C
+20241020,Citra Setiawan,X-2,IPA,60,60,40,52.0,D
+20241021,Aditya Setiawan,XI-1,Informatika,89,93,94,92.2,A
+20241022,Citra Pratama,XI-2,Matematika,91,88,93,90.9,A
+20241023,Dewi Setiawan,XII-1,Bahasa Indonesia,92,87,79,85.3,B
+20241024,Dewi Maulana,XII-2,Bahasa Inggris,79,89,85,84.4,B
+20241025,Aditya Wibowo,X-1,IPA,91,79,90,87.0,B
+20241026,Aditya Pratama,X-2,Informatika,86,90,80,84.8,B
+20241027,Citra Maulana,XI-1,Matematika,70,80,76,75.4,C
+20241028,Citra Permata,XI-2,Bahasa Indonesia,70,73,76,73.3,C
+20241029,Aditya Baskoro,XII-1,Bahasa Inggris,81,78,71,76.1,C
+20241030,Citra Susanto,XII-2,IPA,67,68,62,65.3,D
+20241031,Aditya Siregar,X-1,Informatika,91,99,94,94.6,A
+20241032,Budi Nasution,X-2,Matematika,94,98,100,97.6,A
+20241033,Budi Sari,XI-1,Bahasa Indonesia,83,85,86,84.8,B
+20241034,Budi Susanto,XI-2,Bahasa Inggris,85,79,81,81.6,B
+20241035,Citra Santoso,XII-1,IPA,81,79,83,81.2,B
+20241036,Budi Purnomo,XII-2,Informatika,78,87,86,83.9,B
+20241037,Citra Wibowo,X-1,Matematika,71,72,68,70.1,C
+20241038,Budi Nugroho,X-2,Bahasa Indonesia,69,66,71,68.9,D
+20241039,Citra Saputra,XI-1,Bahasa Inggris,69,66,73,69.7,D
+20241040,Budi Setiawan,XI-2,IPA,52,61,47,52.7,D
+20241041,Budi Gunawan,XII-1,Informatika,92,98,97,95.8,A
+20241042,Budi Utomo,XII-2,Matematika,91,96,92,92.9,A
+20241043,Citra Putri,X-1,Bahasa Indonesia,89,87,87,87.6,B
+20241044,Aditya Nasution,X-2,Bahasa Inggris,85,81,90,85.8,B
+20241045,Citra Kusuma,XI-1,IPA,85,90,84,86.1,B
+20241046,Citra Hidayat,XI-2,Informatika,81,79,79,79.6,C
+20241047,Aditya Harahap,XII-1,Matematika,78,78,73,76.0,C
+20241048,Budi Permata,XII-2,Bahasa Indonesia,74,78,75,75.6,C
+20241049,Dewi Purnomo,X-1,Bahasa Inggris,81,66,78,75.3,C
+20241050,Dewi Nasution,X-2,IPA,70,65,43,57.7,D
+20241051,Aditya Simanjuntak,XI-1,Informatika,88,94,95,92.6,A
+20241052,Aditya Santoso,XI-2,Matematika,100,89,93,93.9,A
+20241053,Budi Baskoro,XII-1,Bahasa Indonesia,81,81,86,83.0,B
+20241054,Dewi Saputra,XII-2,Bahasa Inggris,85,80,84,83.1,B
+20241055,Aditya Maulana,X-1,IPA,80,82,85,82.6,B
+20241056,Budi Hakim,X-2,Informatika,81,79,85,82.0,B
+20241057,Dewi Cahyono,XI-1,Matematika,80,68,68,71.6,C
+20241058,Budi Lestari,XI-2,Bahasa Indonesia,78,65,69,70.5,C
+20241059,Aditya Wijaya,XII-1,Bahasa Inggris,82,72,70,74.2,C
+20241060,Dewi Rahmawati,XII-2,IPA,63,60,55,58.9,D
+20241061,Citra Lestari,X-1,Informatika,91,94,90,91.5,A
+20241062,Citra Rahmawati,X-2,Matematika,90,94,90,91.2,A
+20241063,Budi Santoso,XI-1,Bahasa Indonesia,84,82,90,85.8,B
+20241064,Budi Putri,XI-2,Bahasa Inggris,90,85,82,85.3,B
+20241065,Budi Wibowo,XII-1,IPA,84,89,89,87.5,B
+20241066,Aditya Permata,XII-2,Informatika,90,86,88,88.0,B
+20241067,Citra Aulia,X-1,Matematika,79,80,70,75.7,C
+20241068,Aditya Putra,X-2,Bahasa Indonesia,71,74,71,71.9,C
+20241069,Budi Cahyono,XI-1,Bahasa Inggris,68,66,79,71.8,C
+20241070,Aditya Hidayat,XI-2,IPA,60,46,41,48.2,D
+20241071,Budi Kusuma,XII-1,Informatika,97,95,98,96.8,A
+20241072,Budi Aulia,XII-2,Matematika,96,90,90,91.8,A
+20241073,Budi Putra,X-1,Bahasa Indonesia,86,79,80,81.5,B
+20241074,Aditya Lestari,X-2,Bahasa Inggris,79,87,79,81.4,B
+20241075,Budi Maulana,XI-1,IPA,88,81,84,84.3,B
+20241076,Dewi Sari,XI-2,Informatika,79,87,81,82.2,B
+20241077,Dewi Susanto,XII-1,Matematika,77,66,77,73.7,C
+20241078,Dewi Gunawan,XII-2,Bahasa Indonesia,69,78,78,75.3,C
+20241079,Dewi Permata,X-1,Bahasa Inggris,77,75,72,74.4,C
+20241080,Aditya Hakim,X-2,IPA,56,66,62,61.4,D
+20241081,Citra Utomo,XI-1,Informatika,93,91,94,92.8,A
+20241082,Budi Rahmawati,XI-2,Matematika,94,90,100,95.2,A
+20241083,Dewi Aulia,XII-1,Bahasa Indonesia,88,82,85,85.0,B
+20241084,Aditya Susanto,XII-2,Bahasa Inggris,83,90,79,83.5,B
+20241085,Aditya Saputra,X-1,IPA,78,85,87,83.7,B
+20241086,Dewi Utomo,X-2,Informatika,87,79,79,81.4,B
+20241087,Dewi Putra,XI-1,Matematika,76,71,76,74.5,C
+20241088,Budi Handoko,XI-2,Bahasa Indonesia,72,69,73,71.5,C
+20241089,Dewi Harahap,XII-1,Bahasa Inggris,82,67,71,73.1,C
+20241090,Budi Harahap,XII-2,IPA,61,54,45,52.5,D
+20241091,Dewi Ramadhan,X-1,Informatika,95,96,94,94.9,A
+20241092,Citra Gunawan,X-2,Matematika,97,100,100,99.1,A
+20241093,Citra Harahap,XI-1,Bahasa Indonesia,86,78,88,84.4,B
+20241094,Dewi Pratama,XI-2,Bahasa Inggris,91,86,82,85.9,B
+20241095,Aditya Utomo,XII-1,IPA,92,88,79,85.6,B
+20241096,Citra Sari,XII-2,Informatika,92,80,82,84.4,B
+20241097,Dewi Lestari,X-1,Matematika,69,68,79,72.7,C
+20241098,Citra Ramadhan,X-2,Bahasa Indonesia,76,69,72,72.3,C
+20241099,Citra Nugroho,XI-1,Bahasa Inggris,72,71,79,74.5,C
+20241100,Aditya Gunawan,XI-2,IPA,60,51,61,57.7,D
+20241101,Aditya Handoko,XII-1,Informatika,98,92,98,96.2,A
+20241102,Dewi Putri,XII-2,Matematika,95,92,90,92.1,A
+20241103,Dewi Handoko,X-1,Bahasa Indonesia,79,88,84,83.7,B
+20241104,Aditya Nugroho,X-2,Bahasa Inggris,91,82,78,83.1,B
+20241105,Budi Simanjuntak,XI-1,IPA,78,83,90,84.3,B
+20241106,Citra Putra,XI-2,Informatika,80,88,82,83.2,B
+20241107,Aditya Sari,XII-1,Matematika,70,79,76,75.1,C
+20241108,Citra Purnomo,XII-2,Bahasa Indonesia,79,78,76,77.5,C
+20241109,Dewi Siregar,X-1,Bahasa Inggris,68,68,69,68.4,D
+20241110,Citra Baskoro,X-2,IPA,54,62,41,51.2,D
+20241111,Aditya Rahmawati,XI-1,Informatika,93,97,98,96.2,A
+20241112,Dewi Baskoro,XI-2,Matematika,90,94,92,92.0,A
+20241113,Aditya Ramadhan,XII-1,Bahasa Indonesia,78,82,83,81.2,B
+20241114,Aditya Cahyono,XII-2,Bahasa Inggris,92,90,78,85.8,B
+20241115,Budi Pratama,X-1,IPA,92,83,81,84.9,B
+20241116,Budi Hidayat,X-2,Informatika,88,81,88,85.9,B
+20241117,Dewi Nugroho,XI-1,Matematika,69,76,80,75.5,C
+20241118,Aditya Kusuma,XI-2,Bahasa Indonesia,76,78,77,77.0,C
+20241119,Aditya Aulia,XII-1,Bahasa Inggris,79,69,71,72.8,C
+20241120,Citra Siregar,XII-2,IPA,55,50,68,58.7,D
