@@ -1,121 +1,755 @@
-NIS,Nama,Kelas,Mata_Pelajaran,Nilai_Tugas,Nilai_UTS,Nilai_UAS,Nilai_Akhir,Predikat
-20241001,Aditya Purnomo,X-1,Informatika,90,96,97,94.6,A
-20241002,Citra Simanjuntak,X-2,Matematika,89,100,90,92.7,A
-20241003,Dewi Hidayat,XI-1,Bahasa Indonesia,91,79,80,83.0,B
-20241004,Dewi Simanjuntak,XI-2,Bahasa Inggris,88,80,90,86.4,B
-20241005,Dewi Wijaya,XII-1,IPA,88,84,87,86.4,B
-20241006,Budi Saputra,XII-2,Informatika,79,84,84,82.5,B
-20241007,Dewi Kusuma,X-1,Matematika,77,79,76,77.2,C
-20241008,Citra Handoko,X-2,Bahasa Indonesia,72,65,78,72.3,C
-20241009,Dewi Santoso,XI-1,Bahasa Inggris,79,68,78,75.3,C
-20241010,Dewi Hakim,XI-2,IPA,67,53,64,61.6,D
-20241011,Budi Ramadhan,XII-1,Informatika,98,93,91,93.7,A
-20241012,Citra Hakim,XII-2,Matematika,92,94,92,92.6,A
-20241013,Citra Cahyono,X-1,Bahasa Indonesia,85,78,89,84.5,B
-20241014,Budi Wijaya,X-2,Bahasa Inggris,92,89,82,87.1,B
-20241015,Aditya Putri,XI-1,IPA,86,90,80,84.8,B
-20241016,Citra Wijaya,XI-2,Informatika,86,79,88,84.7,B
-20241017,Citra Nasution,XII-1,Matematika,72,71,70,70.9,C
-20241018,Dewi Wibowo,XII-2,Bahasa Indonesia,73,70,76,73.3,C
-20241019,Budi Siregar,X-1,Bahasa Inggris,80,65,77,74.3,C
-20241020,Citra Setiawan,X-2,IPA,60,60,40,52.0,D
-20241021,Aditya Setiawan,XI-1,Informatika,89,93,94,92.2,A
-20241022,Citra Pratama,XI-2,Matematika,91,88,93,90.9,A
-20241023,Dewi Setiawan,XII-1,Bahasa Indonesia,92,87,79,85.3,B
-20241024,Dewi Maulana,XII-2,Bahasa Inggris,79,89,85,84.4,B
-20241025,Aditya Wibowo,X-1,IPA,91,79,90,87.0,B
-20241026,Aditya Pratama,X-2,Informatika,86,90,80,84.8,B
-20241027,Citra Maulana,XI-1,Matematika,70,80,76,75.4,C
-20241028,Citra Permata,XI-2,Bahasa Indonesia,70,73,76,73.3,C
-20241029,Aditya Baskoro,XII-1,Bahasa Inggris,81,78,71,76.1,C
-20241030,Citra Susanto,XII-2,IPA,67,68,62,65.3,D
-20241031,Aditya Siregar,X-1,Informatika,91,99,94,94.6,A
-20241032,Budi Nasution,X-2,Matematika,94,98,100,97.6,A
-20241033,Budi Sari,XI-1,Bahasa Indonesia,83,85,86,84.8,B
-20241034,Budi Susanto,XI-2,Bahasa Inggris,85,79,81,81.6,B
-20241035,Citra Santoso,XII-1,IPA,81,79,83,81.2,B
-20241036,Budi Purnomo,XII-2,Informatika,78,87,86,83.9,B
-20241037,Citra Wibowo,X-1,Matematika,71,72,68,70.1,C
-20241038,Budi Nugroho,X-2,Bahasa Indonesia,69,66,71,68.9,D
-20241039,Citra Saputra,XI-1,Bahasa Inggris,69,66,73,69.7,D
-20241040,Budi Setiawan,XI-2,IPA,52,61,47,52.7,D
-20241041,Budi Gunawan,XII-1,Informatika,92,98,97,95.8,A
-20241042,Budi Utomo,XII-2,Matematika,91,96,92,92.9,A
-20241043,Citra Putri,X-1,Bahasa Indonesia,89,87,87,87.6,B
-20241044,Aditya Nasution,X-2,Bahasa Inggris,85,81,90,85.8,B
-20241045,Citra Kusuma,XI-1,IPA,85,90,84,86.1,B
-20241046,Citra Hidayat,XI-2,Informatika,81,79,79,79.6,C
-20241047,Aditya Harahap,XII-1,Matematika,78,78,73,76.0,C
-20241048,Budi Permata,XII-2,Bahasa Indonesia,74,78,75,75.6,C
-20241049,Dewi Purnomo,X-1,Bahasa Inggris,81,66,78,75.3,C
-20241050,Dewi Nasution,X-2,IPA,70,65,43,57.7,D
-20241051,Aditya Simanjuntak,XI-1,Informatika,88,94,95,92.6,A
-20241052,Aditya Santoso,XI-2,Matematika,100,89,93,93.9,A
-20241053,Budi Baskoro,XII-1,Bahasa Indonesia,81,81,86,83.0,B
-20241054,Dewi Saputra,XII-2,Bahasa Inggris,85,80,84,83.1,B
-20241055,Aditya Maulana,X-1,IPA,80,82,85,82.6,B
-20241056,Budi Hakim,X-2,Informatika,81,79,85,82.0,B
-20241057,Dewi Cahyono,XI-1,Matematika,80,68,68,71.6,C
-20241058,Budi Lestari,XI-2,Bahasa Indonesia,78,65,69,70.5,C
-20241059,Aditya Wijaya,XII-1,Bahasa Inggris,82,72,70,74.2,C
-20241060,Dewi Rahmawati,XII-2,IPA,63,60,55,58.9,D
-20241061,Citra Lestari,X-1,Informatika,91,94,90,91.5,A
-20241062,Citra Rahmawati,X-2,Matematika,90,94,90,91.2,A
-20241063,Budi Santoso,XI-1,Bahasa Indonesia,84,82,90,85.8,B
-20241064,Budi Putri,XI-2,Bahasa Inggris,90,85,82,85.3,B
-20241065,Budi Wibowo,XII-1,IPA,84,89,89,87.5,B
-20241066,Aditya Permata,XII-2,Informatika,90,86,88,88.0,B
-20241067,Citra Aulia,X-1,Matematika,79,80,70,75.7,C
-20241068,Aditya Putra,X-2,Bahasa Indonesia,71,74,71,71.9,C
-20241069,Budi Cahyono,XI-1,Bahasa Inggris,68,66,79,71.8,C
-20241070,Aditya Hidayat,XI-2,IPA,60,46,41,48.2,D
-20241071,Budi Kusuma,XII-1,Informatika,97,95,98,96.8,A
-20241072,Budi Aulia,XII-2,Matematika,96,90,90,91.8,A
-20241073,Budi Putra,X-1,Bahasa Indonesia,86,79,80,81.5,B
-20241074,Aditya Lestari,X-2,Bahasa Inggris,79,87,79,81.4,B
-20241075,Budi Maulana,XI-1,IPA,88,81,84,84.3,B
-20241076,Dewi Sari,XI-2,Informatika,79,87,81,82.2,B
-20241077,Dewi Susanto,XII-1,Matematika,77,66,77,73.7,C
-20241078,Dewi Gunawan,XII-2,Bahasa Indonesia,69,78,78,75.3,C
-20241079,Dewi Permata,X-1,Bahasa Inggris,77,75,72,74.4,C
-20241080,Aditya Hakim,X-2,IPA,56,66,62,61.4,D
-20241081,Citra Utomo,XI-1,Informatika,93,91,94,92.8,A
-20241082,Budi Rahmawati,XI-2,Matematika,94,90,100,95.2,A
-20241083,Dewi Aulia,XII-1,Bahasa Indonesia,88,82,85,85.0,B
-20241084,Aditya Susanto,XII-2,Bahasa Inggris,83,90,79,83.5,B
-20241085,Aditya Saputra,X-1,IPA,78,85,87,83.7,B
-20241086,Dewi Utomo,X-2,Informatika,87,79,79,81.4,B
-20241087,Dewi Putra,XI-1,Matematika,76,71,76,74.5,C
-20241088,Budi Handoko,XI-2,Bahasa Indonesia,72,69,73,71.5,C
-20241089,Dewi Harahap,XII-1,Bahasa Inggris,82,67,71,73.1,C
-20241090,Budi Harahap,XII-2,IPA,61,54,45,52.5,D
-20241091,Dewi Ramadhan,X-1,Informatika,95,96,94,94.9,A
-20241092,Citra Gunawan,X-2,Matematika,97,100,100,99.1,A
-20241093,Citra Harahap,XI-1,Bahasa Indonesia,86,78,88,84.4,B
-20241094,Dewi Pratama,XI-2,Bahasa Inggris,91,86,82,85.9,B
-20241095,Aditya Utomo,XII-1,IPA,92,88,79,85.6,B
-20241096,Citra Sari,XII-2,Informatika,92,80,82,84.4,B
-20241097,Dewi Lestari,X-1,Matematika,69,68,79,72.7,C
-20241098,Citra Ramadhan,X-2,Bahasa Indonesia,76,69,72,72.3,C
-20241099,Citra Nugroho,XI-1,Bahasa Inggris,72,71,79,74.5,C
-20241100,Aditya Gunawan,XI-2,IPA,60,51,61,57.7,D
-20241101,Aditya Handoko,XII-1,Informatika,98,92,98,96.2,A
-20241102,Dewi Putri,XII-2,Matematika,95,92,90,92.1,A
-20241103,Dewi Handoko,X-1,Bahasa Indonesia,79,88,84,83.7,B
-20241104,Aditya Nugroho,X-2,Bahasa Inggris,91,82,78,83.1,B
-20241105,Budi Simanjuntak,XI-1,IPA,78,83,90,84.3,B
-20241106,Citra Putra,XI-2,Informatika,80,88,82,83.2,B
-20241107,Aditya Sari,XII-1,Matematika,70,79,76,75.1,C
-20241108,Citra Purnomo,XII-2,Bahasa Indonesia,79,78,76,77.5,C
-20241109,Dewi Siregar,X-1,Bahasa Inggris,68,68,69,68.4,D
-20241110,Citra Baskoro,X-2,IPA,54,62,41,51.2,D
-20241111,Aditya Rahmawati,XI-1,Informatika,93,97,98,96.2,A
-20241112,Dewi Baskoro,XI-2,Matematika,90,94,92,92.0,A
-20241113,Aditya Ramadhan,XII-1,Bahasa Indonesia,78,82,83,81.2,B
-20241114,Aditya Cahyono,XII-2,Bahasa Inggris,92,90,78,85.8,B
-20241115,Budi Pratama,X-1,IPA,92,83,81,84.9,B
-20241116,Budi Hidayat,X-2,Informatika,88,81,88,85.9,B
-20241117,Dewi Nugroho,XI-1,Matematika,69,76,80,75.5,C
-20241118,Aditya Kusuma,XI-2,Bahasa Indonesia,76,78,77,77.0,C
-20241119,Aditya Aulia,XII-1,Bahasa Inggris,79,69,71,72.8,C
-20241120,Citra Siregar,XII-2,IPA,55,50,68,58.7,D
+NIS,Nama,Jenis_Kelamin,Kelas,Mata_Pelajaran,Nilai_Tugas,Nilai_UTS,Nilai_UAS,Nilai_Akhir,Predikat
+10260001,Adinda Putri,P,X-1,Matematika,82,90,85,85.6,B
+10260002,Aditya Setiawan,L,X-1,Bahasa Inggris,70,77,74,73.7,C
+10260003,Andika Syahputra,L,X-1,Informatika,89,88,91,89.5,B
+10260004,Arini Octaviani,P,X-1,Bahasa Indonesia,80,78,88,82.6,B
+10260005,Arya Utomo,L,X-1,IPA,55,57,54,55.2,D
+10260006,Bagas Kusuma,L,X-1,Matematika,80,85,87,84.3,B
+10260007,Dinda Novitasari,P,X-1,Bahasa Inggris,75,69,74,72.8,C
+10260008,Dwi Gunawan,L,X-1,Informatika,96,98,96,96.6,A
+10260009,Farhan Nasution,L,X-1,Bahasa Indonesia,84,84,87,85.2,B
+10260010,Galih Wijaya,L,X-1,IPA,65,47,54,55.2,D
+10260011,Gita Kusuma,P,X-1,Matematika,87,88,85,86.5,B
+10260012,Hendra Wardhana,L,X-1,Bahasa Inggris,80,69,69,72.3,C
+10260013,Ikhsan Pratama,L,X-1,Informatika,95,92,98,95.3,A
+10260014,Ilham Ramadhan,L,X-1,Bahasa Indonesia,87,90,79,84.7,B
+10260015,Joko Saputra,L,X-1,IPA,68,61,63,63.9,D
+10260016,Kartika Kartikasari,P,X-1,Matematika,82,78,87,82.8,B
+10260017,Kartika Kusuma,P,X-1,Bahasa Inggris,81,75,71,75.2,C
+10260018,Keisya Handayani,P,X-1,Informatika,100,100,97,98.8,A
+10260019,Kevin Nugraha,L,X-1,Bahasa Indonesia,87,89,85,86.8,B
+10260020,Kurniawan Nasution,L,X-1,IPA,59,64,54,58.5,D
+10260021,Lestari Khairunnisa,P,X-1,Matematika,92,80,80,83.6,B
+10260022,Nabila Maharani,P,X-1,Bahasa Inggris,72,71,79,74.5,C
+10260023,Nadia Kusuma,P,X-1,Informatika,99,97,90,94.8,A
+10260024,Naufal Simanjuntak,L,X-1,Bahasa Indonesia,78,82,85,82.0,B
+10260025,Novi Susanti,P,X-1,IPA,53,62,51,54.9,D
+10260026,Pratama Firdaus,L,X-1,Matematika,88,89,86,87.5,B
+10260027,Pratama Nugraha,L,X-1,Bahasa Inggris,68,73,80,74.3,C
+10260028,Putri Ningrum,P,X-1,Informatika,97,90,96,94.5,A
+10260029,Rani Siregar,P,X-1,Bahasa Indonesia,90,87,83,86.3,B
+10260030,Rian Gunawan,L,X-1,IPA,61,46,51,52.5,D
+10260031,Sari Octaviani,P,X-1,Matematika,81,87,90,86.4,B
+10260032,Satria Simanjuntak,L,X-1,Bahasa Inggris,82,73,72,75.3,C
+10260033,Shinta Khairunnisa,P,X-1,Informatika,93,88,92,91.1,A
+10260034,Shinta Permata,P,X-1,Bahasa Indonesia,83,80,79,80.5,B
+10260035,Siti Anggraini,P,X-1,IPA,68,58,43,55.0,D
+10260036,Syifa Khairunnisa,P,X-1,Matematika,85,84,81,83.1,B
+10260037,Tegar Setiawan,L,X-1,Bahasa Inggris,76,80,74,76.4,C
+10260038,Wulan Siregar,P,X-1,Informatika,94,91,95,93.5,A
+10260039,Yoga Wijaya,L,X-1,Bahasa Indonesia,79,89,87,85.2,B
+10260040,Zahra Handayani,P,X-1,IPA,51,54,57,54.3,D
+10260041,Aditya Santoso,L,X-2,Matematika,78,86,90,85.2,B
+10260042,Aldi Firdaus,L,X-2,Bahasa Inggris,82,73,74,76.1,C
+10260043,Arya Nugroho,L,X-2,Informatika,90,99,93,93.9,A
+10260044,Aulia Maharani,P,X-2,Bahasa Indonesia,85,83,78,81.6,B
+10260045,Citra Safitri,P,X-2,IPA,58,64,63,61.8,D
+10260046,Della Wijaya,P,X-2,Matematika,87,85,89,87.2,B
+10260047,Dian Susanti,P,X-2,Bahasa Inggris,81,75,69,74.4,C
+10260048,Dian Wijaya,P,X-2,Informatika,95,90,100,95.5,A
+10260049,Dinda Safitri,P,X-2,Bahasa Indonesia,80,84,89,84.8,B
+10260050,Elsa Novitasari,P,X-2,IPA,55,54,60,56.7,D
+10260051,Elsa Safitri,P,X-2,Matematika,80,79,88,82.9,B
+10260052,Fajar Purnomo,L,X-2,Bahasa Inggris,75,78,78,77.1,C
+10260053,Gilang Wardhana,L,X-2,Informatika,89,95,98,94.4,A
+10260054,Gita Susanti,P,X-2,Bahasa Indonesia,92,86,89,89.0,B
+10260055,Hafiz Syahputra,L,X-2,IPA,65,54,52,56.5,D
+10260056,Indah Safitri,P,X-2,Matematika,89,82,87,86.1,B
+10260057,Indra Purnomo,L,X-2,Bahasa Inggris,78,79,70,75.1,C
+10260058,Indra Siregar,L,X-2,Informatika,97,98,100,98.5,A
+10260059,Intan Novitasari,P,X-2,Bahasa Indonesia,90,82,89,87.2,B
+10260060,Intan Pratiwi,P,X-2,IPA,60,49,46,51.1,D
+10260061,Irfan Hidayat,L,X-2,Matematika,80,88,83,83.6,B
+10260062,Lutfi Ramadhan,L,X-2,Bahasa Inggris,82,66,78,75.6,C
+10260063,Melati Siregar,P,X-2,Informatika,93,91,95,93.2,A
+10260064,Melati Utami,P,X-2,Bahasa Indonesia,79,87,85,83.8,B
+10260065,Mutia Handayani,P,X-2,IPA,63,46,50,52.7,D
+10260066,Nasywa Pratiwi,P,X-2,Matematika,81,82,81,81.3,B
+10260067,Olivia Kusuma,P,X-2,Bahasa Inggris,76,67,80,74.9,C
+10260068,Pratama Nugroho,L,X-2,Informatika,96,90,91,92.2,A
+10260069,Rafi Santoso,L,X-2,Bahasa Indonesia,84,86,81,83.4,B
+10260070,Ratna Ramadhani,P,X-2,IPA,69,64,67,66.7,D
+10260071,Reza Maulana,L,X-2,Matematika,83,84,86,84.5,B
+10260072,Rian Setiawan,L,X-2,Bahasa Inggris,82,80,69,76.2,C
+10260073,Satria Nugraha,L,X-2,Informatika,100,94,92,95.0,A
+10260074,Taufik Hidayat,L,X-2,Bahasa Indonesia,79,78,82,79.9,C
+10260075,Taufik Utomo,L,X-2,IPA,66,48,43,51.4,D
+10260076,Umar Cahyono,L,X-2,Matematika,81,83,80,81.2,B
+10260077,Umar Siregar,L,X-2,Bahasa Inggris,72,73,76,73.9,C
+10260078,Vera Ningrum,P,X-2,Informatika,96,93,93,93.9,A
+10260079,Vina Ramadhani,P,X-2,Bahasa Indonesia,78,78,83,80.0,B
+10260080,Wahyu Maulana,L,X-2,IPA,51,50,64,55.9,D
+10260081,Aditya Pratama,L,X-3,Matematika,87,85,88,86.8,B
+10260082,Alvin Saputra,L,X-3,Bahasa Inggris,81,77,75,77.4,C
+10260083,Alvin Susanto,L,X-3,Informatika,94,95,94,94.3,A
+10260084,Amelia Hasanah,P,X-3,Bahasa Indonesia,86,86,85,85.6,B
+10260085,Andika Utomo,L,X-3,IPA,67,47,43,51.4,D
+10260086,Anindya Wulandari,P,X-3,Matematika,89,79,78,81.6,B
+10260087,Anisa Cahyani,P,X-3,Bahasa Inggris,76,67,68,70.1,C
+10260088,Arya Harahap,L,X-3,Informatika,91,91,92,91.4,A
+10260089,Bagus Wardhana,L,X-3,Bahasa Indonesia,78,87,89,85.1,B
+10260090,Bayu Firdaus,L,X-3,IPA,56,46,55,52.6,D
+10260091,Danu Nasution,L,X-3,Matematika,83,90,82,84.7,B
+10260092,Dinda Putri,P,X-3,Bahasa Inggris,82,73,75,76.5,C
+10260093,Dinda Wijaya,P,X-3,Informatika,90,90,93,91.2,A
+10260094,Elsa Azzahra,P,X-3,Bahasa Indonesia,85,90,84,86.1,B
+10260095,Farah Octaviani,P,X-3,IPA,55,62,64,60.7,D
+10260096,Farah Wulandari,P,X-3,Matematika,85,88,90,87.9,B
+10260097,Gita Maharani,P,X-3,Bahasa Inggris,70,66,79,72.4,C
+10260098,Gita Putri,P,X-3,Informatika,93,93,93,93.0,A
+10260099,Ikhsan Siregar,L,X-3,Bahasa Indonesia,81,79,84,81.6,B
+10260100,Indah Lestari,P,X-3,IPA,53,61,59,57.8,D
+10260101,Intan Aulia,P,X-3,Matematika,79,82,90,84.3,B
+10260102,Irfan Wardhana,L,X-3,Bahasa Inggris,80,70,71,73.4,C
+10260103,Kirana Siregar,P,X-3,Informatika,92,95,96,94.5,A
+10260104,Lestari Ningrum,P,X-3,Bahasa Indonesia,90,78,78,81.6,B
+10260105,Lutfi Cahyono,L,X-3,IPA,52,50,44,48.2,D
+10260106,Novi Puspitasari,P,X-3,Matematika,80,88,78,81.6,B
+10260107,Nurul Damayanti,P,X-3,Bahasa Inggris,79,72,74,74.9,C
+10260108,Oki Santoso,L,X-3,Informatika,95,89,92,92.0,A
+10260109,Rama Nugraha,L,X-3,Bahasa Indonesia,91,78,88,85.9,B
+10260110,Rama Ramadhan,L,X-3,IPA,60,55,60,58.5,D
+10260111,Reza Gunawan,L,X-3,Matematika,88,90,81,85.8,B
+10260112,Rina Pratiwi,P,X-3,Bahasa Inggris,79,68,76,74.5,C
+10260113,Rizky Wibowo,L,X-3,Informatika,91,93,90,91.2,A
+10260114,Satria Saputra,L,X-3,Bahasa Indonesia,85,88,89,87.5,B
+10260115,Siti Puspitasari,P,X-3,IPA,51,47,50,49.4,D
+10260116,Tegar Baskoro,L,X-3,Matematika,84,83,85,84.1,B
+10260117,Umar Saputra,L,X-3,Bahasa Inggris,74,67,70,70.3,C
+10260118,Utami Cahyani,P,X-3,Informatika,95,93,92,93.2,A
+10260119,Vina Utami,P,X-3,Bahasa Indonesia,82,87,79,82.3,B
+10260120,Yoga Santoso,L,X-3,IPA,56,66,62,61.4,D
+10260121,Adinda Siregar,P,X-4,Matematika,86,79,79,81.1,B
+10260122,Aditya Susanto,L,X-4,Bahasa Inggris,72,77,79,76.3,C
+10260123,Amelia Permata,P,X-4,Informatika,95,98,92,94.7,A
+10260124,Andika Nasution,L,X-4,Bahasa Indonesia,78,81,80,79.7,C
+10260125,Arif Baskoro,L,X-4,IPA,60,65,58,60.7,D
+10260126,Arya Wibowo,L,X-4,Matematika,90,86,81,85.2,B
+10260127,Aulia Azzahra,P,X-4,Bahasa Inggris,78,68,75,73.8,C
+10260128,Bayu Nasution,L,X-4,Informatika,90,94,93,92.4,A
+10260129,Chandra Kusuma,L,X-4,Bahasa Indonesia,81,87,80,82.4,B
+10260130,Dafa Nasution,L,X-4,IPA,67,55,45,54.6,D
+10260131,Dafa Nugroho,L,X-4,Matematika,78,78,80,78.8,C
+10260132,Della Wulandari,P,X-4,Bahasa Inggris,77,70,79,75.7,C
+10260133,Dewi Putri,P,X-4,Informatika,98,90,94,94.0,A
+10260134,Dewi Siregar,P,X-4,Bahasa Indonesia,82,80,79,80.2,B
+10260135,Farhan Pamungkas,L,X-4,IPA,58,52,45,51.0,D
+10260136,Farhan Syahputra,L,X-4,Matematika,90,81,83,84.5,B
+10260137,Galih Cahyono,L,X-4,Bahasa Inggris,75,77,75,75.6,C
+10260138,Galih Pratama,L,X-4,Informatika,91,89,90,90.0,A
+10260139,Kartika Siregar,P,X-4,Bahasa Indonesia,90,86,81,85.2,B
+10260140,Keisya Wijaya,P,X-4,IPA,60,59,65,61.7,D
+10260141,Lestari Handayani,P,X-4,Matematika,90,87,90,89.1,B
+10260142,Mega Siregar,P,X-4,Bahasa Inggris,77,75,74,75.2,C
+10260143,Melati Sari,P,X-4,Informatika,90,97,95,94.1,A
+10260144,Mutia Wulandari,P,X-4,Bahasa Indonesia,81,78,87,82.5,B
+10260145,Nasywa Utami,P,X-4,IPA,60,56,46,53.2,D
+10260146,Naufal Kusuma,L,X-4,Matematika,79,88,79,81.7,B
+10260147,Oki Harahap,L,X-4,Bahasa Inggris,80,67,80,76.1,C
+10260148,Oki Pamungkas,L,X-4,Informatika,90,94,98,94.4,A
+10260149,Oki Saputra,L,X-4,Bahasa Indonesia,85,89,80,84.2,B
+10260150,Rina Sari,P,X-4,IPA,67,65,52,60.4,D
+10260151,Salsabila Putri,P,X-4,Matematika,82,78,79,79.6,C
+10260152,Siti Ningrum,P,X-4,Bahasa Inggris,79,71,74,74.6,C
+10260153,Syifa Siregar,P,X-4,Informatika,96,90,91,92.2,A
+10260154,Tegar Nugroho,L,X-4,Bahasa Indonesia,91,84,79,84.1,B
+10260155,Umar Setiawan,L,X-4,IPA,52,50,63,55.8,D
+10260156,Wahyu Saputra,L,X-4,Matematika,79,90,89,86.3,B
+10260157,Yoga Pratama,L,X-4,Bahasa Inggris,69,80,74,74.3,C
+10260158,Yuni Maharani,P,X-4,Informatika,97,92,94,94.3,A
+10260159,Yuni Permata,P,X-4,Bahasa Indonesia,83,83,86,84.2,B
+10260160,Zahra Novitasari,P,X-4,IPA,70,67,50,61.1,D
+10260161,Aditya Handoko,L,X-5,Matematika,88,79,87,84.9,B
+10260162,Alya Azzahra,P,X-5,Bahasa Inggris,73,73,68,71.0,C
+10260163,Alya Damayanti,P,X-5,Informatika,97,100,93,96.3,A
+10260164,Alya Lestari,P,X-5,Bahasa Indonesia,82,78,87,82.8,B
+10260165,Anisa Permata,P,X-5,IPA,67,52,65,61.7,D
+10260166,Bagas Hidayat,L,X-5,Matematika,92,87,82,86.5,B
+10260167,Bayu Gunawan,L,X-5,Bahasa Inggris,71,76,77,74.9,C
+10260168,Bella Hasanah,P,X-5,Informatika,93,97,91,93.4,A
+10260169,Bima Simanjuntak,L,X-5,Bahasa Indonesia,91,88,79,85.3,B
+10260170,Bunga Aulia,P,X-5,IPA,68,45,57,56.7,D
+10260171,Bunga Khairunnisa,P,X-5,Matematika,78,79,82,79.9,C
+10260172,Cantika Ningrum,P,X-5,Bahasa Inggris,75,74,72,73.5,C
+10260173,Dafa Santoso,L,X-5,Informatika,98,100,99,99.0,A
+10260174,Dafa Surya,L,X-5,Bahasa Indonesia,88,80,78,81.6,B
+10260175,Della Kusuma,P,X-5,IPA,59,45,66,57.6,D
+10260176,Dian Wulandari,P,X-5,Matematika,82,89,89,86.9,B
+10260177,Dimas Nasution,L,X-5,Bahasa Inggris,77,67,76,73.6,C
+10260178,Erlangga Pratama,L,X-5,Informatika,89,93,100,94.6,A
+10260179,Erlangga Surya,L,X-5,Bahasa Indonesia,92,81,83,85.1,B
+10260180,Farhan Pratama,L,X-5,IPA,51,47,60,53.4,D
+10260181,Gilang Akbar,L,X-5,Matematika,79,87,90,85.8,B
+10260182,Gilang Wijaya,L,X-5,Bahasa Inggris,74,71,70,71.5,C
+10260183,Indah Ningrum,P,X-5,Informatika,89,88,93,90.3,A
+10260184,Keisya Aulia,P,X-5,Bahasa Indonesia,88,82,84,84.6,B
+10260185,Kurniawan Hidayat,L,X-5,IPA,66,53,46,54.1,D
+10260186,Lestari Kartikasari,P,X-5,Matematika,78,81,82,80.5,B
+10260187,Mutia Utami,P,X-5,Bahasa Inggris,68,78,75,73.8,C
+10260188,Rafi Setiawan,L,X-5,Informatika,95,92,91,92.5,A
+10260189,Rama Nasution,L,X-5,Bahasa Indonesia,83,80,82,81.7,B
+10260190,Rian Wardhana,L,X-5,IPA,68,60,68,65.6,D
+10260191,Rina Maharani,P,X-5,Matematika,85,78,83,82.1,B
+10260192,Satria Baskoro,L,X-5,Bahasa Inggris,71,69,74,71.6,C
+10260193,Siti Khairunnisa,P,X-5,Informatika,94,94,92,93.2,A
+10260194,Taufik Firdaus,L,X-5,Bahasa Indonesia,88,90,89,89.0,B
+10260195,Tiara Lestari,P,X-5,IPA,51,46,45,47.1,D
+10260196,Tiara Siregar,P,X-5,Matematika,79,78,86,81.5,B
+10260197,Umar Surya,L,X-5,Bahasa Inggris,81,73,73,75.4,C
+10260198,Yuni Azzahra,P,X-5,Informatika,92,88,97,92.8,A
+10260199,Zahra Utami,P,X-5,Bahasa Indonesia,78,90,89,86.0,B
+10260200,Zaki Ramadhan,L,X-5,IPA,50,67,62,59.9,D
+10260201,Ahmad Firdaus,L,X-6,Matematika,79,83,89,84.2,B
+10260202,Ahmad Purnomo,L,X-6,Bahasa Inggris,71,73,77,74.0,C
+10260203,Ahmad Wijaya,L,X-6,Informatika,90,88,91,89.8,B
+10260204,Aldi Siregar,L,X-6,Bahasa Indonesia,85,80,85,83.5,B
+10260205,Aldi Susanto,L,X-6,IPA,53,59,47,52.4,D
+10260206,Andika Akbar,L,X-6,Matematika,80,82,89,84.2,B
+10260207,Anindya Maharani,P,X-6,Bahasa Inggris,73,79,77,76.4,C
+10260208,Arini Hasanah,P,X-6,Informatika,98,92,99,96.6,A
+10260209,Arini Novitasari,P,X-6,Bahasa Indonesia,91,90,78,85.5,B
+10260210,Arya Pratama,L,X-6,IPA,58,56,46,52.6,D
+10260211,Aulia Siregar,P,X-6,Matematika,87,89,81,85.2,B
+10260212,Bella Susanti,P,X-6,Bahasa Inggris,78,67,80,75.5,C
+10260213,Bunga Pratiwi,P,X-6,Informatika,92,89,93,91.5,A
+10260214,Cantika Aulia,P,X-6,Bahasa Indonesia,87,78,78,80.7,B
+10260215,Dinda Ningrum,P,X-6,IPA,70,68,46,59.8,D
+10260216,Farhan Harahap,L,X-6,Matematika,84,82,89,85.4,B
+10260217,Gita Anggraini,P,X-6,Bahasa Inggris,72,66,78,72.6,C
+10260218,Hendra Maulana,L,X-6,Informatika,97,89,98,95.0,A
+10260219,Ilham Purnomo,L,X-6,Bahasa Indonesia,84,87,83,84.5,B
+10260220,Indah Putri,P,X-6,IPA,70,51,54,57.9,D
+10260221,Kevin Gunawan,L,X-6,Matematika,78,84,84,82.2,B
+10260222,Kirana Kartikasari,P,X-6,Bahasa Inggris,80,67,71,72.5,C
+10260223,Kurniawan Saputra,L,X-6,Informatika,91,92,99,94.5,A
+10260224,Melati Khairunnisa,P,X-6,Bahasa Indonesia,89,90,84,87.3,B
+10260225,Nadia Maharani,P,X-6,IPA,70,56,64,63.4,D
+10260226,Nurul Lestari,P,X-6,Matematika,91,84,88,87.7,B
+10260227,Oki Handoko,L,X-6,Bahasa Inggris,78,77,75,76.5,C
+10260228,Pratama Harahap,L,X-6,Informatika,98,97,95,96.5,A
+10260229,Rian Syahputra,L,X-6,Bahasa Indonesia,88,79,85,84.1,B
+10260230,Rizky Wijaya,L,X-6,IPA,68,53,55,58.3,D
+10260231,Syifa Pratiwi,P,X-6,Matematika,82,81,80,80.9,B
+10260232,Tiara Khairunnisa,P,X-6,Bahasa Inggris,69,77,68,71.0,C
+10260233,Tiara Wijaya,P,X-6,Informatika,96,95,92,94.1,A
+10260234,Umar Hakim,L,X-6,Bahasa Indonesia,89,83,85,85.6,B
+10260235,Umar Santoso,L,X-6,IPA,60,56,63,60.0,D
+10260236,Utami Lestari,P,X-6,Matematika,78,87,78,80.7,B
+10260237,Vina Wijaya,P,X-6,Bahasa Inggris,68,79,80,76.1,C
+10260238,Yoga Firdaus,L,X-6,Informatika,97,91,90,92.4,A
+10260239,Yoga Wibowo,L,X-6,Bahasa Indonesia,92,81,82,84.7,B
+10260240,Zahra Permata,P,X-6,IPA,61,53,60,58.2,D
+10260241,Aldi Kusuma,L,X-7,Matematika,81,83,80,81.2,B
+10260242,Aldi Utomo,L,X-7,Bahasa Inggris,77,80,75,77.1,C
+10260243,Alvin Gunawan,L,X-7,Informatika,94,88,97,93.4,A
+10260244,Arini Kartikasari,P,X-7,Bahasa Indonesia,85,85,81,83.4,B
+10260245,Aulia Ningrum,P,X-7,IPA,68,53,50,56.3,D
+10260246,Aulia Sari,P,X-7,Matematika,90,78,83,83.6,B
+10260247,Aulia Wulandari,P,X-7,Bahasa Inggris,69,70,79,73.3,C
+10260248,Bagas Firdaus,L,X-7,Informatika,92,96,91,92.8,A
+10260249,Bagas Syahputra,L,X-7,Bahasa Indonesia,83,87,84,84.6,B
+10260250,Bagus Syahputra,L,X-7,IPA,58,67,65,63.5,D
+10260251,Bunga Handayani,P,X-7,Matematika,79,78,81,79.5,C
+10260252,Dafa Harahap,L,X-7,Bahasa Inggris,79,70,79,76.3,C
+10260253,Dwi Firdaus,L,X-7,Informatika,89,95,95,93.2,A
+10260254,Elsa Sari,P,X-7,Bahasa Indonesia,79,80,80,79.7,C
+10260255,Erlangga Syahputra,L,X-7,IPA,67,65,42,56.4,D
+10260256,Fauzan Harahap,L,X-7,Matematika,86,89,83,85.7,B
+10260257,Fitri Siregar,P,X-7,Bahasa Inggris,81,72,78,77.1,C
+10260258,Gita Cahyani,P,X-7,Informatika,100,97,90,95.1,A
+10260259,Gita Safitri,P,X-7,Bahasa Indonesia,81,84,81,81.9,B
+10260260,Hendra Nasution,L,X-7,IPA,59,56,51,54.9,D
+10260261,Ikhsan Akbar,L,X-7,Matematika,84,80,88,84.4,B
+10260262,Indra Baskoro,L,X-7,Bahasa Inggris,74,74,73,73.6,C
+10260263,Joko Wijaya,L,X-7,Informatika,100,98,97,98.2,A
+10260264,Keisya Anggraini,P,X-7,Bahasa Indonesia,80,79,81,80.1,B
+10260265,Kevin Firdaus,L,X-7,IPA,51,56,45,50.1,D
+10260266,Laras Anggraini,P,X-7,Matematika,84,90,88,87.4,B
+10260267,Lestari Wulandari,P,X-7,Bahasa Inggris,80,67,74,73.7,C
+10260268,Mutia Novitasari,P,X-7,Informatika,96,94,95,95.0,A
+10260269,Mutia Permata,P,X-7,Bahasa Indonesia,78,83,89,83.9,B
+10260270,Naufal Maulana,L,X-7,IPA,54,58,52,54.4,D
+10260271,Oki Surya,L,X-7,Matematika,92,79,89,86.9,B
+10260272,Olivia Wulandari,P,X-7,Bahasa Inggris,75,66,71,70.7,C
+10260273,Rama Simanjuntak,L,X-7,Informatika,92,98,100,97.0,A
+10260274,Rizky Firdaus,L,X-7,Bahasa Indonesia,84,87,88,86.5,B
+10260275,Satria Surya,L,X-7,IPA,69,65,54,61.8,D
+10260276,Shinta Ramadhani,P,X-7,Matematika,83,81,86,83.6,B
+10260277,Syifa Damayanti,P,X-7,Bahasa Inggris,74,70,76,73.6,C
+10260278,Utami Octaviani,P,X-7,Informatika,91,91,97,93.4,A
+10260279,Wulan Fitriani,P,X-7,Bahasa Indonesia,84,86,83,84.2,B
+10260280,Zahra Nasution,P,X-7,IPA,67,68,48,59.7,D
+10260281,Andika Wibowo,L,X-8,Matematika,82,80,85,82.6,B
+10260282,Arif Susanto,L,X-8,Bahasa Inggris,73,78,73,74.5,C
+10260283,Arya Santoso,L,X-8,Informatika,95,88,100,94.9,A
+10260284,Aulia Kartikasari,P,X-8,Bahasa Indonesia,81,90,82,84.1,B
+10260285,Citra Nasution,P,X-8,IPA,68,58,64,63.4,D
+10260286,Dafa Utomo,L,X-8,Matematika,78,80,81,79.8,C
+10260287,Danu Syahputra,L,X-8,Bahasa Inggris,75,80,70,74.5,C
+10260288,Dwi Harahap,L,X-8,Informatika,100,99,99,99.3,A
+10260289,Fauzan Setiawan,L,X-8,Bahasa Indonesia,84,88,79,83.2,B
+10260290,Febri Kusuma,P,X-8,IPA,57,48,57,54.3,D
+10260291,Febri Novitasari,P,X-8,Matematika,86,83,88,85.9,B
+10260292,Fitri Sari,P,X-8,Bahasa Inggris,75,67,68,69.8,D
+10260293,Gilang Pamungkas,L,X-8,Informatika,93,90,94,92.5,A
+10260294,Hendra Santoso,L,X-8,Bahasa Indonesia,87,79,86,84.2,B
+10260295,Ilham Saputra,L,X-8,IPA,66,53,57,58.5,D
+10260296,Irfan Nugroho,L,X-8,Matematika,86,83,83,83.9,B
+10260297,Irfan Ramadhan,L,X-8,Bahasa Inggris,78,68,80,75.8,C
+10260298,Lestari Wijaya,P,X-8,Informatika,100,98,92,96.2,A
+10260299,Mega Rahmawati,P,X-8,Bahasa Indonesia,90,86,83,86.0,B
+10260300,Muhammad Utomo,L,X-8,IPA,56,64,52,56.8,D
+10260301,Nadia Handayani,P,X-8,Matematika,87,86,87,86.7,B
+10260302,Nadia Ningrum,P,X-8,Bahasa Inggris,71,80,79,76.9,C
+10260303,Nasywa Kusuma,P,X-8,Informatika,91,90,96,92.7,A
+10260304,Novi Damayanti,P,X-8,Bahasa Indonesia,87,90,81,85.5,B
+10260305,Pratama Surya,L,X-8,IPA,53,46,61,54.1,D
+10260306,Putri Safitri,P,X-8,Matematika,83,79,88,83.8,B
+10260307,Rafi Baskoro,L,X-8,Bahasa Inggris,69,73,77,73.4,C
+10260308,Rahma Handayani,P,X-8,Informatika,89,99,92,93.2,A
+10260309,Rama Siregar,L,X-8,Bahasa Indonesia,85,85,83,84.2,B
+10260310,Ratna Azzahra,P,X-8,IPA,54,47,55,52.3,D
+10260311,Rian Cahyono,L,X-8,Matematika,80,79,82,80.5,B
+10260312,Salsabila Siregar,P,X-8,Bahasa Inggris,82,70,79,77.2,C
+10260313,Taufik Pamungkas,L,X-8,Informatika,95,89,93,92.4,A
+10260314,Utami Fitriani,P,X-8,Bahasa Indonesia,82,81,89,84.5,B
+10260315,Vera Sari,P,X-8,IPA,69,68,60,65.1,D
+10260316,Wulan Rahmawati,P,X-8,Matematika,87,88,87,87.3,B
+10260317,Yoga Hakim,L,X-8,Bahasa Inggris,73,77,77,75.8,C
+10260318,Zahra Cahyani,P,X-8,Informatika,95,93,94,94.0,A
+10260319,Zaki Nugraha,L,X-8,Bahasa Indonesia,90,88,84,87.0,B
+10250320,Adinda Susanti,P,XI-1,Informatika,91,88,95,91.7,A
+10250321,Amalia Ramadhani,P,XI-1,Bahasa Indonesia,83,82,86,83.9,B
+10250322,Amelia Safitri,P,XI-1,IPA,77,71,80,76.4,C
+10250323,Arif Pamungkas,L,XI-1,Matematika,86,84,82,83.8,B
+10250324,Arif Siregar,L,XI-1,Bahasa Inggris,88,80,80,82.4,B
+10250325,Arya Pamungkas,L,XI-1,Informatika,92,98,98,96.2,A
+10250326,Aulia Putri,P,XI-1,Bahasa Indonesia,84,79,84,82.5,B
+10250327,Bayu Baskoro,L,XI-1,IPA,78,78,70,74.8,C
+10250328,Bella Wulandari,P,XI-1,Matematika,83,86,87,85.5,B
+10250329,Bima Hakim,L,XI-1,Bahasa Inggris,84,89,84,85.5,B
+10250330,Bunga Cahyani,P,XI-1,Informatika,93,99,99,97.2,A
+10250331,Dimas Saputra,L,XI-1,Bahasa Indonesia,89,83,90,87.6,B
+10250332,Dimas Siregar,L,XI-1,IPA,68,80,75,74.4,C
+10250333,Dwi Akbar,L,XI-1,Matematika,92,90,79,86.2,B
+10250334,Eko Purnomo,L,XI-1,Bahasa Inggris,81,83,81,81.6,B
+10250335,Erlangga Nugroho,L,XI-1,Informatika,100,92,99,97.2,A
+10250336,Fajar Handoko,L,XI-1,Bahasa Indonesia,90,81,84,84.9,B
+10250337,Farhan Simanjuntak,L,XI-1,IPA,80,74,74,75.8,C
+10250338,Galih Wardhana,L,XI-1,Matematika,81,84,89,85.1,B
+10250339,Gilang Firdaus,L,XI-1,Bahasa Inggris,89,85,89,87.8,B
+10250340,Gita Aulia,P,XI-1,Informatika,97,88,90,91.5,A
+10250341,Gita Azzahra,P,XI-1,Bahasa Indonesia,84,82,79,81.4,B
+10250342,Hana Wulandari,P,XI-1,IPA,75,69,78,74.4,C
+10250343,Kartika Utami,P,XI-1,Matematika,83,87,84,84.6,B
+10250344,Kurniawan Harahap,L,XI-1,Bahasa Inggris,82,86,83,83.6,B
+10250345,Kurniawan Syahputra,L,XI-1,Informatika,91,94,98,94.7,A
+10250346,Nadia Anggraini,P,XI-1,Bahasa Indonesia,79,88,86,84.5,B
+10250347,Nasywa Octaviani,P,XI-1,IPA,76,77,69,73.5,C
+10250348,Novi Maharani,P,XI-1,Matematika,80,78,84,81.0,B
+10250349,Novi Octaviani,P,XI-1,Bahasa Inggris,88,82,79,82.6,B
+10250350,Pratama Simanjuntak,L,XI-1,Informatika,98,95,91,94.3,A
+10250351,Putri Wijaya,P,XI-1,Bahasa Indonesia,90,79,78,81.9,B
+10250352,Rani Kusuma,P,XI-1,IPA,68,71,79,73.3,C
+10250353,Ratna Cahyani,P,XI-1,Matematika,80,82,87,83.4,B
+10250354,Ratna Susanti,P,XI-1,Bahasa Inggris,78,78,85,80.8,B
+10250355,Reza Surya,L,XI-1,Informatika,94,100,91,94.6,A
+10250356,Wulan Pratiwi,P,XI-1,Bahasa Indonesia,82,89,80,83.3,B
+10250357,Zahra Kusuma,P,XI-1,IPA,77,69,68,71.0,C
+10250358,Zaki Firdaus,L,XI-1,Matematika,88,87,80,84.5,B
+10250359,Zaki Saputra,L,XI-1,Bahasa Inggris,92,82,79,83.8,B
+10250360,Aldi Nugraha,L,XI-2,Informatika,89,96,90,91.5,A
+10250361,Amalia Handayani,P,XI-2,Bahasa Indonesia,82,78,83,81.2,B
+10250362,Amalia Wulandari,P,XI-2,IPA,75,78,72,74.7,C
+10250363,Arif Utomo,L,XI-2,Matematika,82,82,88,84.4,B
+10250364,Arya Baskoro,L,XI-2,Bahasa Inggris,86,84,78,82.2,B
+10250365,Ayu Lestari,P,XI-2,Informatika,96,89,99,95.1,A
+10250366,Bagus Surya,L,XI-2,Bahasa Indonesia,84,82,84,83.4,B
+10250367,Budi Pamungkas,L,XI-2,IPA,75,79,80,78.2,C
+10250368,Danu Pratama,L,XI-2,Matematika,86,90,81,85.2,B
+10250369,Dwi Nasution,L,XI-2,Bahasa Inggris,79,86,82,82.3,B
+10250370,Fauzan Nugraha,L,XI-2,Informatika,94,91,91,91.9,A
+10250371,Febri Putri,P,XI-2,Bahasa Indonesia,82,83,81,81.9,B
+10250372,Fitri Kusuma,P,XI-2,IPA,82,66,70,72.4,C
+10250373,Hana Octaviani,P,XI-2,Matematika,83,82,82,82.3,B
+10250374,Hana Ramadhani,P,XI-2,Bahasa Inggris,79,88,80,82.1,B
+10250375,Hana Utami,P,XI-2,Informatika,90,100,91,93.4,A
+10250376,Hendra Hakim,L,XI-2,Bahasa Indonesia,85,88,90,87.9,B
+10250377,Jelita Khairunnisa,P,XI-2,IPA,72,66,73,70.6,C
+10250378,Keisya Lestari,P,XI-2,Matematika,83,82,83,82.7,B
+10250379,Lestari Pratiwi,P,XI-2,Bahasa Inggris,86,87,80,83.9,B
+10250380,Nadia Fitriani,P,XI-2,Informatika,89,92,92,91.1,A
+10250381,Nurul Hasanah,P,XI-2,Bahasa Indonesia,88,78,82,82.6,B
+10250382,Rafi Cahyono,L,XI-2,IPA,74,74,75,74.4,C
+10250383,Rafi Hidayat,L,XI-2,Matematika,87,88,78,83.7,B
+10250384,Rafi Pamungkas,L,XI-2,Bahasa Inggris,79,89,79,82.0,B
+10250385,Rahma Siregar,P,XI-2,Informatika,91,93,91,91.6,A
+10250386,Ratna Khairunnisa,P,XI-2,Bahasa Indonesia,88,83,85,85.3,B
+10250387,Reza Simanjuntak,L,XI-2,IPA,81,74,77,77.3,C
+10250388,Reza Wardhana,L,XI-2,Matematika,85,88,88,87.1,B
+10250389,Salsabila Sari,P,XI-2,Bahasa Inggris,91,87,88,88.6,B
+10250390,Sari Anggraini,P,XI-2,Informatika,93,96,96,95.1,A
+10250391,Satria Setiawan,L,XI-2,Bahasa Indonesia,90,82,78,82.8,B
+10250392,Satria Siregar,L,XI-2,IPA,70,78,74,74.0,C
+10250393,Satria Susanto,L,XI-2,Matematika,85,79,86,83.6,B
+10250394,Siti Sari,P,XI-2,Bahasa Inggris,90,89,84,87.3,B
+10250395,Syifa Putri,P,XI-2,Informatika,97,92,91,93.1,A
+10250396,Tiara Puspitasari,P,XI-2,Bahasa Indonesia,88,84,86,86.0,B
+10250397,Umar Wijaya,L,XI-2,IPA,81,71,77,76.4,C
+10250398,Wahyu Hidayat,L,XI-2,Matematika,84,87,89,86.9,B
+10250399,Zaki Wijaya,L,XI-2,Bahasa Inggris,89,78,81,82.5,B
+10250400,Adinda Rahmawati,P,XI-3,Informatika,89,95,94,92.8,A
+10250401,Aditya Cahyono,L,XI-3,Bahasa Indonesia,86,87,87,86.7,B
+10250402,Aditya Syahputra,L,XI-3,IPA,69,75,75,73.2,C
+10250403,Ahmad Ramadhan,L,XI-3,Matematika,87,83,79,82.6,B
+10250404,Alvin Hidayat,L,XI-3,Bahasa Inggris,78,78,89,82.4,B
+10250405,Alvin Maulana,L,XI-3,Informatika,94,92,96,94.2,A
+10250406,Amelia Nasution,P,XI-3,Bahasa Indonesia,83,87,86,85.4,B
+10250407,Ayu Puspitasari,P,XI-3,IPA,80,72,73,74.8,C
+10250408,Bunga Permata,P,XI-3,Matematika,86,82,88,85.6,B
+10250409,Cantika Ramadhani,P,XI-3,Bahasa Inggris,89,84,79,83.5,B
+10250410,Chandra Ramadhan,L,XI-3,Informatika,98,93,97,96.1,A
+10250411,Citra Rahmawati,P,XI-3,Bahasa Indonesia,81,90,82,84.1,B
+10250412,Della Nasution,P,XI-3,IPA,76,67,71,71.3,C
+10250413,Eko Santoso,L,XI-3,Matematika,80,85,86,83.9,B
+10250414,Farah Rahmawati,P,XI-3,Bahasa Inggris,83,81,86,83.6,B
+10250415,Fauzan Syahputra,L,XI-3,Informatika,90,90,99,93.6,A
+10250416,Galih Syahputra,L,XI-3,Bahasa Indonesia,84,81,82,82.3,B
+10250417,Gilang Simanjuntak,L,XI-3,IPA,75,72,78,75.3,C
+10250418,Gilang Utomo,L,XI-3,Matematika,87,86,84,85.5,B
+10250419,Hafiz Harahap,L,XI-3,Bahasa Inggris,78,82,78,79.2,C
+10250420,Hafiz Utomo,L,XI-3,Informatika,100,98,91,95.8,A
+10250421,Hendra Akbar,L,XI-3,Bahasa Indonesia,91,90,82,87.1,B
+10250422,Hendra Siregar,L,XI-3,IPA,82,80,76,79.0,C
+10250423,Hendra Wijaya,L,XI-3,Matematika,84,89,79,83.5,B
+10250424,Ikhsan Hakim,L,XI-3,Bahasa Inggris,88,80,82,83.2,B
+10250425,Indah Wijaya,P,XI-3,Informatika,90,93,97,93.7,A
+10250426,Kirana Cahyani,P,XI-3,Bahasa Indonesia,82,81,90,84.9,B
+10250427,Lestari Safitri,P,XI-3,IPA,76,77,78,77.1,C
+10250428,Mutia Pratiwi,P,XI-3,Matematika,87,78,81,81.9,B
+10250429,Olivia Kartikasari,P,XI-3,Bahasa Inggris,80,85,78,80.7,B
+10250430,Rafi Firdaus,L,XI-3,Informatika,95,97,98,96.8,A
+10250431,Rafi Nugroho,L,XI-3,Bahasa Indonesia,81,82,90,84.9,B
+10250432,Raka Wijaya,L,XI-3,IPA,69,75,68,70.4,C
+10250433,Rani Permata,P,XI-3,Matematika,81,89,80,83.0,B
+10250434,Sari Aulia,P,XI-3,Bahasa Inggris,85,79,87,84.0,B
+10250435,Shinta Damayanti,P,XI-3,Informatika,91,95,92,92.6,A
+10250436,Siti Utami,P,XI-3,Bahasa Indonesia,92,82,90,88.2,B
+10250437,Tiara Wulandari,P,XI-3,IPA,71,79,78,76.2,C
+10250438,Yuni Pratiwi,P,XI-3,Matematika,80,87,86,84.5,B
+10250439,Zaskia Siregar,P,XI-3,Bahasa Inggris,89,87,84,86.4,B
+10250440,Amelia Anggraini,P,XI-4,Informatika,99,98,98,98.3,A
+10250441,Arini Siregar,P,XI-4,Bahasa Indonesia,84,85,78,81.9,B
+10250442,Bagas Gunawan,L,XI-4,IPA,71,76,80,76.1,C
+10250443,Bagas Maulana,L,XI-4,Matematika,84,82,80,81.8,B
+10250444,Bagas Setiawan,L,XI-4,Bahasa Inggris,89,85,78,83.4,B
+10250445,Bayu Surya,L,XI-4,Informatika,94,95,95,94.7,A
+10250446,Cantika Maharani,P,XI-4,Bahasa Indonesia,83,82,78,80.7,B
+10250447,Citra Utami,P,XI-4,IPA,76,67,77,73.7,C
+10250448,Dafa Firdaus,L,XI-4,Matematika,89,83,78,82.8,B
+10250449,Danu Handoko,L,XI-4,Bahasa Inggris,85,81,87,84.6,B
+10250450,Dewi Kusuma,P,XI-4,Informatika,91,97,92,93.2,A
+10250451,Dian Ningrum,P,XI-4,Bahasa Indonesia,81,87,79,82.0,B
+10250452,Dinda Permata,P,XI-4,IPA,69,69,69,69.0,D
+10250453,Dwi Saputra,L,XI-4,Matematika,85,78,90,84.9,B
+10250454,Eka Damayanti,P,XI-4,Bahasa Inggris,92,87,78,84.9,B
+10250455,Eko Wardhana,L,XI-4,Informatika,100,93,97,96.7,A
+10250456,Eko Wibowo,L,XI-4,Bahasa Indonesia,91,82,88,87.1,B
+10250457,Farhan Santoso,L,XI-4,IPA,75,79,69,73.8,C
+10250458,Febri Cahyani,P,XI-4,Matematika,87,84,88,86.5,B
+10250459,Gilang Hakim,L,XI-4,Bahasa Inggris,84,86,81,83.4,B
+10250460,Gilang Kusuma,L,XI-4,Informatika,90,92,99,94.2,A
+10250461,Gita Permata,P,XI-4,Bahasa Indonesia,88,89,86,87.5,B
+10250462,Indah Damayanti,P,XI-4,IPA,73,66,77,72.5,C
+10250463,Jelita Permata,P,XI-4,Matematika,92,81,82,84.7,B
+10250464,Keisya Fitriani,P,XI-4,Bahasa Inggris,88,80,81,82.8,B
+10250465,Kevin Akbar,L,XI-4,Informatika,89,92,90,90.3,A
+10250466,Laras Utami,P,XI-4,Bahasa Indonesia,92,83,82,85.3,B
+10250467,Lutfi Kusuma,L,XI-4,IPA,69,74,75,72.9,C
+10250468,Mega Damayanti,P,XI-4,Matematika,88,89,81,85.5,B
+10250469,Mega Wulandari,P,XI-4,Bahasa Inggris,83,87,80,83.0,B
+10250470,Muhammad Akbar,L,XI-4,Informatika,97,99,94,96.4,A
+10250471,Muhammad Kusuma,L,XI-4,Bahasa Indonesia,84,81,79,81.1,B
+10250472,Qori Putri,P,XI-4,IPA,70,67,80,73.1,C
+10250473,Tegar Cahyono,L,XI-4,Matematika,80,85,88,84.7,B
+10250474,Vera Lestari,P,XI-4,Bahasa Inggris,90,85,87,87.3,B
+10250475,Yoga Hidayat,L,XI-4,Informatika,91,94,92,92.3,A
+10250476,Yoga Nugroho,L,XI-4,Bahasa Indonesia,85,78,79,80.5,B
+10250477,Zahra Octaviani,P,XI-4,IPA,69,73,75,72.6,C
+10250478,Zaskia Putri,P,XI-4,Matematika,89,88,90,89.1,B
+10250479,Ahmad Wardhana,L,XI-5,IPA,72,70,74,72.2,C
+10250480,Alvin Purnomo,L,XI-5,Matematika,94,89,92,91.7,A
+10250481,Anindya Anggraini,P,XI-5,Bahasa Inggris,89,80,87,85.5,B
+10250482,Anindya Pratiwi,P,XI-5,Informatika,70,71,79,73.9,C
+10250483,Arya Syahputra,L,XI-5,Bahasa Indonesia,85,87,78,82.8,B
+10250484,Bagas Wijaya,L,XI-5,IPA,76,67,75,72.9,C
+10250485,Bayu Setiawan,L,XI-5,Matematika,92,94,92,92.6,A
+10250486,Bima Purnomo,L,XI-5,Bahasa Inggris,79,86,82,82.3,B
+10250487,Budi Pratama,L,XI-5,Informatika,81,67,80,76.4,C
+10250488,Bunga Susanti,P,XI-5,Bahasa Indonesia,92,83,90,88.5,B
+10250489,Cantika Cahyani,P,XI-5,IPA,82,71,72,74.7,C
+10250490,Citra Damayanti,P,XI-5,Matematika,97,99,96,97.2,A
+10250491,Dafa Nugraha,L,XI-5,Bahasa Inggris,78,89,86,84.5,B
+10250492,Dafa Purnomo,L,XI-5,Informatika,68,76,78,74.4,C
+10250493,Dewi Khairunnisa,P,XI-5,Bahasa Indonesia,92,80,89,87.2,B
+10250494,Dimas Syahputra,L,XI-5,IPA,70,78,79,76.0,C
+10250495,Dinda Kartikasari,P,XI-5,Matematika,99,90,93,93.9,A
+10250496,Dinda Susanti,P,XI-5,Bahasa Inggris,80,89,82,83.5,B
+10250497,Dwi Purnomo,L,XI-5,Informatika,73,80,74,75.5,C
+10250498,Dwi Santoso,L,XI-5,Bahasa Indonesia,83,78,83,81.5,B
+10250499,Farhan Surya,L,XI-5,IPA,72,69,79,73.9,C
+10250500,Galih Nasution,L,XI-5,Matematika,93,92,92,92.3,A
+10250501,Hana Cahyani,P,XI-5,Bahasa Inggris,83,81,79,80.8,B
+10250502,Hana Safitri,P,XI-5,Informatika,80,68,68,71.6,C
+10250503,Joko Wibowo,L,XI-5,Bahasa Indonesia,79,89,82,83.2,B
+10250504,Kurniawan Maulana,L,XI-5,IPA,78,67,70,71.5,C
+10250505,Lestari Kusuma,P,XI-5,Matematika,98,92,93,94.2,A
+10250506,Lutfi Handoko,L,XI-5,Bahasa Inggris,80,89,79,82.3,B
+10250507,Nabila Wijaya,P,XI-5,Informatika,80,70,72,73.8,C
+10250508,Putri Lestari,P,XI-5,Bahasa Indonesia,83,90,84,85.5,B
+10250509,Qori Lestari,P,XI-5,IPA,73,69,78,73.8,C
+10250510,Rahma Ningrum,P,XI-5,Matematika,92,99,98,96.5,A
+10250511,Rizky Pratama,L,XI-5,Bahasa Inggris,92,80,81,84.0,B
+10250512,Salsabila Lestari,P,XI-5,Informatika,78,77,79,78.1,C
+10250513,Shinta Nasution,P,XI-5,Bahasa Indonesia,80,86,81,82.2,B
+10250514,Siti Permata,P,XI-5,IPA,75,73,72,73.2,C
+10250515,Vina Lestari,P,XI-5,Matematika,97,93,90,93.0,A
+10250516,Wahyu Simanjuntak,L,XI-5,Bahasa Inggris,91,79,80,83.0,B
+10250517,Zaki Pamungkas,L,XI-5,Informatika,70,74,70,71.2,C
+10240518,Adinda Permata,P,XII-1,Bahasa Inggris,80,80,86,82.4,B
+10240519,Ahmad Saputra,L,XII-1,Informatika,72,75,76,74.5,C
+10240520,Aldi Nugroho,L,XII-1,Bahasa Indonesia,89,95,100,95.2,A
+10240521,Arif Kusuma,L,XII-1,IPA,81,78,82,80.5,B
+10240522,Arif Nugroho,L,XII-1,Matematika,63,65,52,59.2,D
+10240523,Arini Cahyani,P,XII-1,Bahasa Inggris,80,81,87,83.1,B
+10240524,Bagas Ramadhan,L,XII-1,Informatika,68,78,71,72.2,C
+10240525,Budi Gunawan,L,XII-1,Bahasa Indonesia,94,97,90,93.3,A
+10240526,Cantika Anggraini,P,XII-1,IPA,90,86,83,86.0,B
+10240527,Dafa Susanto,L,XII-1,Matematika,60,66,50,57.8,D
+10240528,Dewi Wijaya,P,XII-1,Bahasa Inggris,85,87,78,82.8,B
+10240529,Dinda Handayani,P,XII-1,Informatika,80,74,72,75.0,C
+10240530,Dinda Wulandari,P,XII-1,Bahasa Indonesia,94,92,93,93.0,A
+10240531,Farhan Hidayat,L,XII-1,IPA,81,86,88,85.3,B
+10240532,Febri Handayani,P,XII-1,Matematika,57,64,60,60.3,D
+10240533,Hafiz Nugroho,L,XII-1,Bahasa Inggris,90,78,86,84.8,B
+10240534,Hana Kusuma,P,XII-1,Informatika,80,70,69,72.6,C
+10240535,Indah Octaviani,P,XII-1,Bahasa Indonesia,95,92,94,93.7,A
+10240536,Indah Wulandari,P,XII-1,IPA,79,89,81,82.8,B
+10240537,Irfan Maulana,L,XII-1,Matematika,55,45,56,52.4,D
+10240538,Irfan Pamungkas,L,XII-1,Bahasa Inggris,84,83,88,85.3,B
+10240539,Joko Siregar,L,XII-1,Informatika,71,72,72,71.7,C
+10240540,Kurniawan Pamungkas,L,XII-1,Bahasa Indonesia,95,88,94,92.5,A
+10240541,Laras Octaviani,P,XII-1,IPA,86,86,87,86.4,B
+10240542,Lutfi Wardhana,L,XII-1,Matematika,63,47,57,55.8,D
+10240543,Muhammad Pamungkas,L,XII-1,Bahasa Inggris,91,86,82,85.9,B
+10240544,Nasywa Novitasari,P,XII-1,Informatika,68,78,72,72.6,C
+10240545,Nurul Cahyani,P,XII-1,Bahasa Indonesia,90,97,94,93.7,A
+10240546,Putri Khairunnisa,P,XII-1,IPA,84,78,84,82.2,B
+10240547,Raka Santoso,L,XII-1,Matematika,61,53,46,52.6,D
+10240548,Rama Cahyono,L,XII-1,Bahasa Inggris,84,86,79,82.6,B
+10240549,Rama Gunawan,L,XII-1,Informatika,79,73,71,74.0,C
+10240550,Ratna Octaviani,P,XII-1,Bahasa Indonesia,94,91,91,91.9,A
+10240551,Siti Azzahra,P,XII-1,IPA,90,84,90,88.2,B
+10240552,Siti Pratiwi,P,XII-1,Matematika,53,59,52,54.4,D
+10240553,Syifa Sari,P,XII-1,Bahasa Inggris,87,79,79,81.4,B
+10240554,Taufik Harahap,L,XII-1,Informatika,82,78,80,80.0,B
+10240555,Umar Ramadhan,L,XII-1,Bahasa Indonesia,94,88,100,94.6,A
+10240556,Vera Fitriani,P,XII-1,IPA,90,84,78,83.4,B
+10240557,Vera Permata,P,XII-1,Matematika,55,47,49,50.2,D
+10240558,Alvin Baskoro,L,XII-2,Bahasa Inggris,81,79,79,79.6,C
+10240559,Alvin Harahap,L,XII-2,Informatika,69,70,73,70.9,C
+10240560,Arif Cahyono,L,XII-2,Bahasa Indonesia,93,97,94,94.6,A
+10240561,Arya Gunawan,L,XII-2,IPA,90,83,89,87.5,B
+10240562,Ayu Damayanti,P,XII-2,Matematika,68,64,63,64.8,D
+10240563,Bunga Damayanti,P,XII-2,Bahasa Inggris,85,79,86,83.6,B
+10240564,Chandra Pamungkas,L,XII-2,Informatika,69,72,72,71.1,C
+10240565,Chandra Santoso,L,XII-2,Bahasa Indonesia,96,91,93,93.3,A
+10240566,Citra Ningrum,P,XII-2,IPA,78,90,86,84.8,B
+10240567,Danu Harahap,L,XII-2,Matematika,62,64,50,57.8,D
+10240568,Dimas Hakim,L,XII-2,Bahasa Inggris,81,80,87,83.1,B
+10240569,Dinda Siregar,P,XII-2,Informatika,79,74,72,74.7,C
+10240570,Elsa Siregar,P,XII-2,Bahasa Indonesia,93,92,96,93.9,A
+10240571,Elsa Wulandari,P,XII-2,IPA,83,88,81,83.7,B
+10240572,Hendra Saputra,L,XII-2,Matematika,65,45,52,53.8,D
+10240573,Ikhsan Handoko,L,XII-2,Bahasa Inggris,78,78,84,80.4,B
+10240574,Intan Wijaya,P,XII-2,Informatika,70,79,68,71.9,C
+10240575,Jelita Rahmawati,P,XII-2,Bahasa Indonesia,90,91,99,93.9,A
+10240576,Keisya Siregar,P,XII-2,IPA,89,79,82,83.2,B
+10240577,Kevin Utomo,L,XII-2,Matematika,53,49,68,57.8,D
+10240578,Laras Sari,P,XII-2,Bahasa Inggris,81,80,88,83.5,B
+10240579,Nadia Puspitasari,P,XII-2,Informatika,73,79,68,72.8,C
+10240580,Nasywa Maharani,P,XII-2,Bahasa Indonesia,90,99,97,95.5,A
+10240581,Naufal Firdaus,L,XII-2,IPA,86,81,88,85.3,B
+10240582,Naufal Wardhana,L,XII-2,Matematika,54,57,62,58.1,D
+10240583,Novi Khairunnisa,P,XII-2,Bahasa Inggris,89,81,81,83.4,B
+10240584,Oki Akbar,L,XII-2,Informatika,79,78,79,78.7,C
+10240585,Oki Susanto,L,XII-2,Bahasa Indonesia,95,96,97,96.1,A
+10240586,Pratama Kusuma,L,XII-2,IPA,92,88,84,87.6,B
+10240587,Putri Ramadhani,P,XII-2,Matematika,59,62,66,62.7,D
+10240588,Putri Sari,P,XII-2,Bahasa Inggris,92,78,85,85.0,B
+10240589,Rahma Nasution,P,XII-2,Informatika,80,72,79,77.2,C
+10240590,Salsabila Hasanah,P,XII-2,Bahasa Indonesia,100,89,93,93.9,A
+10240591,Shinta Kartikasari,P,XII-2,IPA,92,82,80,84.2,B
+10240592,Tegar Santoso,L,XII-2,Matematika,50,60,56,55.4,D
+10240593,Tegar Siregar,L,XII-2,Bahasa Inggris,92,88,90,90.0,A
+10240594,Utami Putri,P,XII-2,Informatika,77,70,69,71.7,C
+10240595,Wahyu Hakim,L,XII-2,Bahasa Indonesia,99,94,95,95.9,A
+10240596,Wahyu Ramadhan,L,XII-2,IPA,83,85,80,82.4,B
+10240597,Zahra Susanti,P,XII-2,Matematika,66,56,50,56.6,D
+10240598,Aditya Nasution,L,XII-3,Bahasa Inggris,85,84,88,85.9,B
+10240599,Andika Handoko,L,XII-3,Informatika,74,76,75,75.0,C
+10240600,Arif Harahap,L,XII-3,Bahasa Indonesia,96,94,93,94.2,A
+10240601,Arif Ramadhan,L,XII-3,IPA,82,82,86,83.6,B
+10240602,Arif Wijaya,L,XII-3,Matematika,67,48,42,51.3,D
+10240603,Aulia Fitriani,P,XII-3,Bahasa Inggris,80,89,81,83.1,B
+10240604,Bagas Utomo,L,XII-3,Informatika,77,78,71,74.9,C
+10240605,Bagus Saputra,L,XII-3,Bahasa Indonesia,94,100,100,98.2,A
+10240606,Cantika Octaviani,P,XII-3,IPA,89,79,88,85.6,B
+10240607,Danu Nugraha,L,XII-3,Matematika,67,65,55,61.6,D
+10240608,Danu Simanjuntak,L,XII-3,Bahasa Inggris,81,90,83,84.5,B
+10240609,Dian Siregar,P,XII-3,Informatika,82,70,72,74.4,C
+10240610,Dwi Pamungkas,L,XII-3,Bahasa Indonesia,95,92,94,93.7,A
+10240611,Eko Wijaya,L,XII-3,IPA,91,81,81,84.0,B
+10240612,Erlangga Siregar,L,XII-3,Matematika,55,63,51,55.8,D
+10240613,Farah Aulia,P,XII-3,Bahasa Inggris,89,81,89,86.6,B
+10240614,Hana Susanti,P,XII-3,Informatika,68,69,68,68.3,D
+10240615,Indra Hidayat,L,XII-3,Bahasa Indonesia,93,97,94,94.6,A
+10240616,Irfan Susanto,L,XII-3,IPA,91,79,90,87.0,B
+10240617,Keisya Ningrum,P,XII-3,Matematika,65,52,68,62.3,D
+10240618,Kevin Susanto,L,XII-3,Bahasa Inggris,83,85,88,85.6,B
+10240619,Lestari Novitasari,P,XII-3,Informatika,78,68,68,71.0,C
+10240620,Mega Kartikasari,P,XII-3,Bahasa Indonesia,96,89,90,91.5,A
+10240621,Melati Nasution,P,XII-3,IPA,79,88,81,82.5,B
+10240622,Muhammad Maulana,L,XII-3,Matematika,62,50,57,56.4,D
+10240623,Nabila Handayani,P,XII-3,Bahasa Inggris,78,81,90,83.7,B
+10240624,Novi Utami,P,XII-3,Informatika,68,77,72,72.3,C
+10240625,Nurul Handayani,P,XII-3,Bahasa Indonesia,95,100,91,94.9,A
+10240626,Pratama Utomo,L,XII-3,IPA,89,90,90,89.7,B
+10240627,Qori Fitriani,P,XII-3,Matematika,66,58,55,59.2,D
+10240628,Rama Hakim,L,XII-3,Bahasa Inggris,87,82,79,82.3,B
+10240629,Salsabila Damayanti,P,XII-3,Informatika,73,71,80,75.2,C
+10240630,Sari Wulandari,P,XII-3,Bahasa Indonesia,92,99,100,97.3,A
+10240631,Shinta Aulia,P,XII-3,IPA,90,84,90,88.2,B
+10240632,Tegar Surya,L,XII-3,Matematika,56,55,51,53.7,D
+10240633,Vera Wijaya,P,XII-3,Bahasa Inggris,87,80,84,83.7,B
+10240634,Vina Permata,P,XII-3,Informatika,72,66,76,71.8,C
+10240635,Wahyu Wibowo,L,XII-3,Bahasa Indonesia,97,94,92,94.1,A
+10240636,Wulan Sari,P,XII-3,IPA,91,79,88,86.2,B
+10240637,Zaskia Rahmawati,P,XII-3,Matematika,60,54,57,57.0,D
+10240638,Adinda Maharani,P,XII-4,Bahasa Inggris,85,89,79,83.8,B
+10240639,Aditya Wijaya,L,XII-4,Informatika,81,78,70,75.7,C
+10240640,Aldi Nasution,L,XII-4,Bahasa Indonesia,99,95,100,98.2,A
+10240641,Anisa Maharani,P,XII-4,IPA,89,82,84,84.9,B
+10240642,Arif Pratama,L,XII-4,Matematika,54,49,45,48.9,D
+10240643,Bayu Saputra,L,XII-4,Bahasa Inggris,78,80,80,79.4,C
+10240644,Bima Susanto,L,XII-4,Informatika,80,75,80,78.5,C
+10240645,Chandra Purnomo,L,XII-4,Bahasa Indonesia,97,93,98,96.2,A
+10240646,Citra Hasanah,P,XII-4,IPA,86,86,87,86.4,B
+10240647,Eko Susanto,L,XII-4,Matematika,61,47,42,49.2,D
+10240648,Erlangga Cahyono,L,XII-4,Bahasa Inggris,86,86,80,83.6,B
+10240649,Farah Fitriani,P,XII-4,Informatika,76,69,70,71.5,C
+10240650,Farhan Susanto,L,XII-4,Bahasa Indonesia,94,100,99,97.8,A
+10240651,Fitri Ramadhani,P,XII-4,IPA,82,88,86,85.4,B
+10240652,Galih Purnomo,L,XII-4,Matematika,69,52,63,61.5,D
+10240653,Gita Lestari,P,XII-4,Bahasa Inggris,92,90,83,87.8,B
+10240654,Gita Ramadhani,P,XII-4,Informatika,72,75,69,71.7,C
+10240655,Ikhsan Purnomo,L,XII-4,Bahasa Indonesia,93,94,100,96.1,A
+10240656,Indah Handayani,P,XII-4,IPA,83,80,83,82.1,B
+10240657,Indah Rahmawati,P,XII-4,Matematika,66,51,47,53.9,D
+10240658,Indra Pratama,L,XII-4,Bahasa Inggris,82,90,81,84.0,B
+10240659,Indra Santoso,L,XII-4,Informatika,81,72,71,74.3,C
+10240660,Indra Wibowo,L,XII-4,Bahasa Indonesia,90,96,94,93.4,A
+10240661,Joko Wardhana,L,XII-4,IPA,90,89,85,87.7,B
+10240662,Kartika Nasution,P,XII-4,Matematika,62,65,63,63.3,D
+10240663,Mega Fitriani,P,XII-4,Bahasa Inggris,88,86,82,85.0,B
+10240664,Melati Maharani,P,XII-4,Informatika,70,70,77,72.8,C
+10240665,Mutia Wijaya,P,XII-4,Bahasa Indonesia,90,93,98,94.1,A
+10240666,Novi Cahyani,P,XII-4,IPA,91,86,89,88.7,B
+10240667,Rafi Syahputra,L,XII-4,Matematika,52,68,59,59.6,D
+10240668,Rani Azzahra,P,XII-4,Bahasa Inggris,79,87,78,81.0,B
+10240669,Ratna Novitasari,P,XII-4,Informatika,79,72,71,73.7,C
+10240670,Rina Permata,P,XII-4,Bahasa Indonesia,99,95,100,98.2,A
+10240671,Rizky Nasution,L,XII-4,IPA,85,79,79,80.8,B
+10240672,Tegar Gunawan,L,XII-4,Matematika,64,49,61,58.3,D
+10240673,Tiara Kartikasari,P,XII-4,Bahasa Inggris,89,88,82,85.9,B
+10240674,Tiara Nasution,P,XII-4,Informatika,70,71,74,71.9,C
+10240675,Wahyu Susanto,L,XII-4,Bahasa Indonesia,93,97,93,94.2,A
+10240676,Zaskia Aulia,P,XII-4,IPA,81,83,82,82.0,B
+10240677,Aditya Siregar,L,XII-5,Bahasa Indonesia,61,56,62,59.9,D
+10240678,Ahmad Surya,L,XII-5,IPA,91,84,80,84.5,B
+10240679,Aldi Cahyono,L,XII-5,Matematika,68,78,80,75.8,C
+10240680,Aldi Hidayat,L,XII-5,Bahasa Inggris,96,91,93,93.3,A
+10240681,Anindya Sari,P,XII-5,Informatika,85,82,83,83.3,B
+10240682,Anisa Azzahra,P,XII-5,Bahasa Indonesia,69,49,55,57.4,D
+10240683,Arini Azzahra,P,XII-5,IPA,78,80,87,82.2,B
+10240684,Arini Damayanti,P,XII-5,Matematika,82,69,70,73.3,C
+10240685,Arini Lestari,P,XII-5,Bahasa Inggris,94,96,93,94.2,A
+10240686,Bagas Akbar,L,XII-5,Informatika,86,83,79,82.3,B
+10240687,Bima Ramadhan,L,XII-5,Bahasa Indonesia,60,51,50,53.3,D
+10240688,Budi Ramadhan,L,XII-5,IPA,92,86,88,88.6,B
+10240689,Bunga Octaviani,P,XII-5,Matematika,70,74,74,72.8,C
+10240690,Citra Octaviani,P,XII-5,Bahasa Inggris,93,98,96,95.7,A
+10240691,Dafa Pratama,L,XII-5,Informatika,82,90,80,83.6,B
+10240692,Dafa Wibowo,L,XII-5,Bahasa Indonesia,67,63,51,59.4,D
+10240693,Dwi Kusuma,L,XII-5,IPA,80,87,86,84.5,B
+10240694,Erlangga Simanjuntak,L,XII-5,Matematika,82,79,78,79.5,C
+10240695,Febri Hasanah,P,XII-5,Bahasa Inggris,96,91,93,93.3,A
+10240696,Galih Ramadhan,L,XII-5,Informatika,86,81,84,83.7,B
+10240697,Gilang Ramadhan,L,XII-5,Bahasa Indonesia,63,50,68,61.1,D
+10240698,Kevin Hakim,L,XII-5,IPA,88,78,80,81.8,B
+10240699,Kevin Wijaya,L,XII-5,Matematika,70,75,70,71.5,C
+10240700,Laras Khairunnisa,P,XII-5,Bahasa Inggris,100,88,90,92.4,A
+10240701,Laras Pratiwi,P,XII-5,Informatika,88,80,87,85.2,B
+10240702,Lutfi Susanto,L,XII-5,Bahasa Indonesia,69,60,59,62.3,D
+10240703,Mega Khairunnisa,P,XII-5,IPA,92,79,83,84.5,B
+10240704,Mega Wijaya,P,XII-5,Matematika,72,73,76,73.9,C
+10240705,Melati Cahyani,P,XII-5,Bahasa Inggris,94,88,94,92.2,A
+10240706,Olivia Handayani,P,XII-5,Informatika,80,79,78,78.9,C
+10240707,Pratama Hidayat,L,XII-5,Bahasa Indonesia,56,59,56,56.9,D
+10240708,Rafi Surya,L,XII-5,IPA,86,83,87,85.5,B
+10240709,Rama Pamungkas,L,XII-5,Matematika,81,73,71,74.6,C
+10240710,Ratna Anggraini,P,XII-5,Bahasa Inggris,98,99,92,95.9,A
+10240711,Taufik Wijaya,L,XII-5,Informatika,89,85,79,83.8,B
+10240712,Utami Nasution,P,XII-5,Bahasa Indonesia,50,46,63,54.0,D
+10240713,Vina Damayanti,P,XII-5,IPA,79,88,85,84.1,B
+10240714,Vina Novitasari,P,XII-5,Matematika,69,78,73,73.3,C
+10240715,Zaskia Pratiwi,P,XII-5,Bahasa Inggris,97,92,100,96.7,A
+10240716,Arini Handayani,P,XII-6,Matematika,91,84,86,86.9,B
+10240717,Bagus Gunawan,L,XII-6,Bahasa Inggris,100,91,95,95.3,A
+10240718,Bayu Syahputra,L,XII-6,Informatika,88,78,82,82.6,B
+10240719,Budi Utomo,L,XII-6,Bahasa Indonesia,68,76,74,72.8,C
+10240720,Cantika Putri,P,XII-6,IPA,79,86,85,83.5,B
+10240721,Danu Wijaya,L,XII-6,Matematika,80,83,80,80.9,B
+10240722,Dwi Nugroho,L,XII-6,Bahasa Inggris,93,88,96,92.7,A
+10240723,Erlangga Harahap,L,XII-6,Informatika,89,86,84,86.1,B
+10240724,Fajar Susanto,L,XII-6,Bahasa Indonesia,71,77,68,71.6,C
+10240725,Fauzan Surya,L,XII-6,IPA,81,85,82,82.6,B
+10240726,Febri Wulandari,P,XII-6,Matematika,89,86,82,85.3,B
+10240727,Galih Akbar,L,XII-6,Bahasa Inggris,94,91,98,94.7,A
+10240728,Hafiz Wibowo,L,XII-6,Informatika,79,78,83,80.3,B
+10240729,Indra Harahap,L,XII-6,Bahasa Indonesia,77,74,80,77.3,C
+10240730,Intan Susanti,P,XII-6,IPA,79,81,82,80.8,B
+10240731,Irfan Gunawan,L,XII-6,Matematika,79,85,78,80.4,B
+10240732,Irfan Hakim,L,XII-6,Bahasa Inggris,92,89,93,91.5,A
+10240733,Joko Maulana,L,XII-6,Informatika,84,90,80,84.2,B
+10240734,Kirana Hasanah,P,XII-6,Bahasa Indonesia,72,75,71,72.5,C
+10240735,Kirana Rahmawati,P,XII-6,IPA,80,85,87,84.3,B
+10240736,Laras Wulandari,P,XII-6,Matematika,84,90,78,83.4,B
+10240737,Mega Aulia,P,XII-6,Bahasa Inggris,92,88,98,93.2,A
+10240738,Mutia Fitriani,P,XII-6,Informatika,88,89,89,88.7,B
+10240739,Mutia Putri,P,XII-6,Bahasa Indonesia,81,71,75,75.6,C
+10240740,Nadia Sari,P,XII-6,IPA,84,90,81,84.6,B
+10240741,Novi Azzahra,P,XII-6,Matematika,81,85,83,83.0,B
+10240742,Nurul Safitri,P,XII-6,Bahasa Inggris,94,95,98,95.9,A
+10240743,Olivia Aulia,P,XII-6,Informatika,91,87,85,87.4,B
+10240744,Olivia Nasution,P,XII-6,Bahasa Indonesia,68,68,76,71.2,C
+10240745,Pratama Gunawan,L,XII-6,IPA,83,88,88,86.5,B
+10240746,Putri Aulia,P,XII-6,Matematika,80,82,89,84.2,B
+10240747,Qori Cahyani,P,XII-6,Bahasa Inggris,90,91,92,91.1,A
+10240748,Rani Fitriani,P,XII-6,Informatika,90,82,86,86.0,B
+10240749,Sari Kusuma,P,XII-6,Bahasa Indonesia,71,79,72,73.8,C
+10240750,Satria Harahap,L,XII-6,IPA,78,88,85,83.8,B
+10240751,Umar Wardhana,L,XII-6,Matematika,86,81,82,82.9,B
+10240752,Wahyu Handoko,L,XII-6,Bahasa Inggris,91,92,91,91.3,A
+10240753,Yoga Kusuma,L,XII-6,Informatika,83,90,82,84.7,B
+10240754,Zahra Pratiwi,P,XII-6,Bahasa Indonesia,74,74,70,72.4,C
