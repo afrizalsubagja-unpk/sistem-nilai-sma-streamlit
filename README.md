@@ -9,7 +9,7 @@ Aplikasi web berbasis **Python** dan **Streamlit** untuk mengolah nilai akademik
 ```text
 tugas_streamlit/
 ├── app.py                      # Aplikasi utama Streamlit
-├── dataset_nilai_siswa.csv     # Dataset awal (120 data siswa fiktif SMA)
+├── dataset_nilai_siswa.csv     # Dataset awal (120 data siswa SMA)
 ├── requirements.txt            # Daftar pustaka Python yang dibutuhkan
 └── README.md                   # Dokumentasi instalasi dan penggunaan aplikasi
 ```
